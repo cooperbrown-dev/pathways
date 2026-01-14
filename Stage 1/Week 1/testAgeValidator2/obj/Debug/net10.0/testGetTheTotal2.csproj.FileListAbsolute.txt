@@ -1,0 +1,14 @@
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 1\testGetTheTotal2\obj\Debug\net10.0\testGetTheTotal2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 1\testGetTheTotal2\obj\Debug\net10.0\testGetTheTotal2.AssemblyInfoInputs.cache
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 1\testGetTheTotal2\obj\Debug\net10.0\testGetTheTotal2.AssemblyInfo.cs
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 1\testGetTheTotal2\obj\Debug\net10.0\testGetTheTotal2.csproj.CoreCompileInputs.cache
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 1\testGetTheTotal2\bin\Debug\net10.0\testGetTheTotal2.exe
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 1\testGetTheTotal2\bin\Debug\net10.0\testGetTheTotal2.deps.json
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 1\testGetTheTotal2\bin\Debug\net10.0\testGetTheTotal2.runtimeconfig.json
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 1\testGetTheTotal2\bin\Debug\net10.0\testGetTheTotal2.dll
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 1\testGetTheTotal2\bin\Debug\net10.0\testGetTheTotal2.pdb
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 1\testGetTheTotal2\obj\Debug\net10.0\testGetTheTotal2.dll
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 1\testGetTheTotal2\obj\Debug\net10.0\refint\testGetTheTotal2.dll
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 1\testGetTheTotal2\obj\Debug\net10.0\testGetTheTotal2.pdb
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 1\testGetTheTotal2\obj\Debug\net10.0\testGetTheTotal2.genruntimeconfig.cache
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 1\testGetTheTotal2\obj\Debug\net10.0\ref\testGetTheTotal2.dll

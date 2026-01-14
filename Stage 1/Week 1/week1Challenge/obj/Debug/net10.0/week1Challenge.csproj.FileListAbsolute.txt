@@ -1,0 +1,14 @@
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 1\week1Challenge\obj\Debug\net10.0\week1Challenge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 1\week1Challenge\obj\Debug\net10.0\week1Challenge.AssemblyInfoInputs.cache
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 1\week1Challenge\obj\Debug\net10.0\week1Challenge.AssemblyInfo.cs
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 1\week1Challenge\obj\Debug\net10.0\week1Challenge.csproj.CoreCompileInputs.cache
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 1\week1Challenge\bin\Debug\net10.0\week1Challenge.exe
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 1\week1Challenge\bin\Debug\net10.0\week1Challenge.deps.json
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 1\week1Challenge\bin\Debug\net10.0\week1Challenge.runtimeconfig.json
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 1\week1Challenge\bin\Debug\net10.0\week1Challenge.dll
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 1\week1Challenge\bin\Debug\net10.0\week1Challenge.pdb
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 1\week1Challenge\obj\Debug\net10.0\week1Challenge.dll
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 1\week1Challenge\obj\Debug\net10.0\refint\week1Challenge.dll
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 1\week1Challenge\obj\Debug\net10.0\week1Challenge.pdb
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 1\week1Challenge\obj\Debug\net10.0\week1Challenge.genruntimeconfig.cache
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 1\week1Challenge\obj\Debug\net10.0\ref\week1Challenge.dll

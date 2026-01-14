@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "feet_to_inches/1.0.0": {
+        "runtime": {
+          "feet_to_inches.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "feet_to_inches/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

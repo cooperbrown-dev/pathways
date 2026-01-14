@@ -1,0 +1,14 @@
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 1\checkAge\bin\Debug\net10.0\checkAge.exe
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 1\checkAge\bin\Debug\net10.0\checkAge.deps.json
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 1\checkAge\bin\Debug\net10.0\checkAge.runtimeconfig.json
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 1\checkAge\bin\Debug\net10.0\checkAge.dll
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 1\checkAge\bin\Debug\net10.0\checkAge.pdb
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 1\checkAge\obj\Debug\net10.0\checkAge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 1\checkAge\obj\Debug\net10.0\checkAge.AssemblyInfoInputs.cache
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 1\checkAge\obj\Debug\net10.0\checkAge.AssemblyInfo.cs
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 1\checkAge\obj\Debug\net10.0\checkAge.csproj.CoreCompileInputs.cache
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 1\checkAge\obj\Debug\net10.0\checkAge.dll
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 1\checkAge\obj\Debug\net10.0\refint\checkAge.dll
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 1\checkAge\obj\Debug\net10.0\checkAge.pdb
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 1\checkAge\obj\Debug\net10.0\checkAge.genruntimeconfig.cache
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 1\checkAge\obj\Debug\net10.0\ref\checkAge.dll
