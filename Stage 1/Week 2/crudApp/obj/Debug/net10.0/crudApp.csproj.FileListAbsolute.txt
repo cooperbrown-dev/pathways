@@ -12,3 +12,4 @@ C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 2\crudApp\obj\
 C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 2\crudApp\obj\Debug\net10.0\crudApp.pdb
 C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 2\crudApp\obj\Debug\net10.0\crudApp.genruntimeconfig.cache
 C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 2\crudApp\obj\Debug\net10.0\ref\crudApp.dll
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 2\crudApp\obj\Debug\net10.0\crudApp.sourcelink.json

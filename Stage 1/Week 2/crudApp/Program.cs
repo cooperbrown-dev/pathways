@@ -95,7 +95,36 @@ namespace HelloWorld
             {
                 Console.WriteLine("In the S/s area");
 
+                int index = 0;  // index for my array
+                using (StreamWriter sw = new StreamWriter(fileName))
+                {
+                    string writeStatus = "";
+                    try
+                    {
+                        
+                        foreach (string name in nameArray) //going through each element in the nameArray array and writing the variable name to that element.
+                            {
+                                sw.WriteLine(name);
+                                writeStatus = "Successful";
+                            }
+                    }
+                    catch (Exception e)
+                        {
+                            Console.WriteLine("Error writing to file");
+                            writeStatus = "Failed";
+                        }
+                        finally
+                        {
+                            Console.WriteLine($"{writeStatus} write to file. Returning to main menu.");
+                        }
+                    Console.WriteLine("");
 
+                    /*
+                    Could also use 
+                    File.WriteAllLines(fileName, nameArray);
+                    Console.WriteLine("File saved");
+                    */
+                } //end using StreamWriter
             }
 
         //  TODO: Else if the option is a C or c then add a name to the array (if there's room there)
@@ -158,6 +187,57 @@ namespace HelloWorld
             else if (userChoiceString=="U" || userChoiceString=="u")
             {
                 Console.WriteLine("In the U/u area");
+
+            //I. Prompt user to get name to update
+
+                Console.Write ("Please enter the name to update> ");
+                string nameToUpdate = Console.ReadLine();
+                Console.Write("Please enter name to update to> ");
+                string updateNameTo = Console.ReadLine();
+
+                /*II. Check for that name in the array
+                    A. Initialize indexFound to -1
+                    B. For each index from 0 to 12 in the array
+                            if the item at that index matches user unput, then set itemFound to an empty string " " 
+                */
+
+                /*int indexFound = -1;
+                Console.WriteLine(nameArray.Length); //prints length of array
+
+                for (int i = 0; i < nameArray.Length; i++)
+                {
+
+                    if (nameArray[i] == nameToUpdate)
+                    {
+                        indexFound = i;
+                        Console.WriteLine(indexFound);
+                        nameArray[i] = updateNameTo;
+                        Console.WriteLine("Name found and updated.");
+                        break;
+                    }
+                }
+                    if (indexFound == -1)
+                    {
+                        Console.WriteLine ("Sorry name not found.");
+                    }*/
+
+                    int indexFound = -1;
+                    int i = 0;
+                    foreach(string name in nameArray)
+                    {
+                        if (name == nameToUpdate)
+                        {
+                            indexFound = i;
+                            nameArray[i] = updateNameTo;
+                            Console.WriteLine("Name found and updated.");
+                            break;
+                        }
+                        i++;
+                    }
+                    if (indexFound == -1)
+                    {
+                        Console.WriteLine ("Sorry name not found.");
+                    }
             }
 
         //  TODO: Else if the option is a D or d then delete the name in the array (if it's there)
