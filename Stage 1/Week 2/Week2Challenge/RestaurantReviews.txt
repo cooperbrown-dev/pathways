@@ -1,0 +1,75 @@
+McDonald’s
+American / Fast Food
+4 Stars
+Runza
+American Fast Food
+5 Stars
+Chipotle Mexican Grill
+Mexican / Fast Casual
+5 Stars
+Taco Bell
+Mexican / Fast Food
+4 Stars
+Wendy’s
+American / Fast Food
+4 Stars
+Burger King
+American / Fast Food
+4 Stars
+KFC
+American / Fried Chicken
+2 Stars
+Pizza Hut
+Italian / Pizza
+4 Stars
+Domino’s Pizza
+Italian / Pizza
+5 Stars
+Starbucks
+Coffee / Café
+5 Stars
+Dunkin’
+Coffee / Donuts
+3 Stars
+Panera Bread
+Café / Bakery
+5 Stars
+Five Guys
+American / Burgers
+5 Stars
+Pizza Ranch
+American / Pizza Buffet
+5 Stars
+Arby’s
+American / Fast Food
+4 Stars
+Sonic Drive-In
+American / Fast Food
+5 Stars
+Dairy Queen
+Ice Cream / Fast Food
+4 Stars
+Papa John’s
+Italian / Pizza
+5 Stars
+Jack in the Box
+American / Fast Food
+4 Stars
+Jersey Mike’s Subs
+Sandwiches / Fast Casual
+5 Stars
+In-N-Out Burger
+American / Burgers
+5 Stars
+Chili’s Grill & Bar
+American / Casual Dining
+5 Stars
+Hardees
+Fast Food
+3 Stars
+Quiznos
+Sandwiches
+4 Stars
+ 
+ 
+ 

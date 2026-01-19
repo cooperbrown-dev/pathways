@@ -1,0 +1,15 @@
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 2\w3csharpExercises\bin\Debug\net10.0\w3csharpExercises.exe
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 2\w3csharpExercises\bin\Debug\net10.0\w3csharpExercises.deps.json
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 2\w3csharpExercises\bin\Debug\net10.0\w3csharpExercises.runtimeconfig.json
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 2\w3csharpExercises\bin\Debug\net10.0\w3csharpExercises.dll
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 2\w3csharpExercises\bin\Debug\net10.0\w3csharpExercises.pdb
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 2\w3csharpExercises\obj\Debug\net10.0\w3csharpExercises.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 2\w3csharpExercises\obj\Debug\net10.0\w3csharpExercises.AssemblyInfoInputs.cache
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 2\w3csharpExercises\obj\Debug\net10.0\w3csharpExercises.AssemblyInfo.cs
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 2\w3csharpExercises\obj\Debug\net10.0\w3csharpExercises.csproj.CoreCompileInputs.cache
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 2\w3csharpExercises\obj\Debug\net10.0\w3csharpExercises.sourcelink.json
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 2\w3csharpExercises\obj\Debug\net10.0\w3csharpExercises.dll
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 2\w3csharpExercises\obj\Debug\net10.0\refint\w3csharpExercises.dll
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 2\w3csharpExercises\obj\Debug\net10.0\w3csharpExercises.pdb
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 2\w3csharpExercises\obj\Debug\net10.0\w3csharpExercises.genruntimeconfig.cache
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 2\w3csharpExercises\obj\Debug\net10.0\ref\w3csharpExercises.dll
