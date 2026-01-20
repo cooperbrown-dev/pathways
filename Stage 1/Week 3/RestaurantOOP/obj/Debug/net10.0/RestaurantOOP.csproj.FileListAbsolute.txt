@@ -1,0 +1,15 @@
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 3\RestaurantOOP\obj\Debug\net10.0\RestaurantOOP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 3\RestaurantOOP\obj\Debug\net10.0\RestaurantOOP.AssemblyInfoInputs.cache
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 3\RestaurantOOP\obj\Debug\net10.0\RestaurantOOP.AssemblyInfo.cs
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 3\RestaurantOOP\obj\Debug\net10.0\RestaurantOOP.csproj.CoreCompileInputs.cache
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 3\RestaurantOOP\obj\Debug\net10.0\RestaurantOOP.sourcelink.json
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 3\RestaurantOOP\bin\Debug\net10.0\RestaurantOOP.exe
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 3\RestaurantOOP\bin\Debug\net10.0\RestaurantOOP.deps.json
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 3\RestaurantOOP\bin\Debug\net10.0\RestaurantOOP.runtimeconfig.json
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 3\RestaurantOOP\bin\Debug\net10.0\RestaurantOOP.dll
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 3\RestaurantOOP\bin\Debug\net10.0\RestaurantOOP.pdb
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 3\RestaurantOOP\obj\Debug\net10.0\RestaurantOOP.dll
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 3\RestaurantOOP\obj\Debug\net10.0\refint\RestaurantOOP.dll
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 3\RestaurantOOP\obj\Debug\net10.0\RestaurantOOP.pdb
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 3\RestaurantOOP\obj\Debug\net10.0\RestaurantOOP.genruntimeconfig.cache
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 3\RestaurantOOP\obj\Debug\net10.0\ref\RestaurantOOP.dll

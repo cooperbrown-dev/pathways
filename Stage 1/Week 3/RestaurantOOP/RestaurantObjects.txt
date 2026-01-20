@@ -1,0 +1,75 @@
+McDonald’s
+American / Fast Food
+4
+Runza
+American Fast Food
+5
+Chipotle Mexican Grill
+Mexican / Fast Casual
+5
+Taco Bell
+Mexican / Fast Food
+4
+Wendy’s
+American / Fast Food
+4
+Burger King
+American / Fast Food
+4
+KFC
+American / Fried Chicken
+2
+Pizza Hut
+Italian / Pizza
+4
+Domino’s Pizza
+Italian / Pizza
+5
+Starbucks
+Coffee / Café
+5
+Dunkin’
+Coffee / Donuts
+3
+Panera Bread
+Café / Bakery
+5
+Five Guys
+American / Burgers
+5
+Pizza Ranch
+American / Pizza Buffet
+5
+Arby’s
+American / Fast Food
+4
+Sonic Drive-In
+American / Fast Food
+5
+Dairy Queen
+Ice Cream / Fast Food
+4
+Papa John’s
+Italian / Pizza
+5
+Jack in the Box
+American / Fast Food
+4
+Jersey Mike’s Subs
+Sandwiches / Fast Casual
+5
+In-N-Out Burger
+American / Burgers
+5
+Chili’s Grill & Bar
+American / Casual Dining
+5
+Hardees
+Fast Food
+3
+Alecs
+Greasy Spoon
+1
+ 
+ 
+ 
