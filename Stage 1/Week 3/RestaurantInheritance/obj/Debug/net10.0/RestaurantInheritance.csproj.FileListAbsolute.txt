@@ -1,0 +1,15 @@
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 3\RestaurantInheritance\obj\Debug\net10.0\RestaurantInheritance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 3\RestaurantInheritance\obj\Debug\net10.0\RestaurantInheritance.AssemblyInfoInputs.cache
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 3\RestaurantInheritance\obj\Debug\net10.0\RestaurantInheritance.AssemblyInfo.cs
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 3\RestaurantInheritance\obj\Debug\net10.0\RestaurantInheritance.csproj.CoreCompileInputs.cache
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 3\RestaurantInheritance\obj\Debug\net10.0\RestaurantInheritance.sourcelink.json
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 3\RestaurantInheritance\bin\Debug\net10.0\RestaurantInheritance.exe
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 3\RestaurantInheritance\bin\Debug\net10.0\RestaurantInheritance.deps.json
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 3\RestaurantInheritance\bin\Debug\net10.0\RestaurantInheritance.runtimeconfig.json
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 3\RestaurantInheritance\bin\Debug\net10.0\RestaurantInheritance.dll
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 3\RestaurantInheritance\bin\Debug\net10.0\RestaurantInheritance.pdb
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 3\RestaurantInheritance\obj\Debug\net10.0\RestaurantInheritance.dll
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 3\RestaurantInheritance\obj\Debug\net10.0\refint\RestaurantInheritance.dll
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 3\RestaurantInheritance\obj\Debug\net10.0\RestaurantInheritance.pdb
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 3\RestaurantInheritance\obj\Debug\net10.0\RestaurantInheritance.genruntimeconfig.cache
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 3\RestaurantInheritance\obj\Debug\net10.0\ref\RestaurantInheritance.dll
