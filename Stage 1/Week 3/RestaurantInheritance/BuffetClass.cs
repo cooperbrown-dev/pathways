@@ -1,6 +1,6 @@
 using System;
 
-namespace RestaurantInheritance
+namespace MusicInheritancePolymorphism
 {
     public class Buffet : Restaurant
     {

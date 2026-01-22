@@ -1,0 +1,15 @@
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 3\InstrumentInheritancePolymorphism\obj\Debug\net10.0\MusicInheritancePolymorphism.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 3\InstrumentInheritancePolymorphism\obj\Debug\net10.0\MusicInheritancePolymorphism.AssemblyInfoInputs.cache
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 3\InstrumentInheritancePolymorphism\obj\Debug\net10.0\MusicInheritancePolymorphism.AssemblyInfo.cs
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 3\InstrumentInheritancePolymorphism\obj\Debug\net10.0\MusicInheritancePolymorphism.csproj.CoreCompileInputs.cache
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 3\InstrumentInheritancePolymorphism\obj\Debug\net10.0\MusicInheritancePolymorphism.sourcelink.json
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 3\InstrumentInheritancePolymorphism\bin\Debug\net10.0\MusicInheritancePolymorphism.exe
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 3\InstrumentInheritancePolymorphism\bin\Debug\net10.0\MusicInheritancePolymorphism.deps.json
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 3\InstrumentInheritancePolymorphism\bin\Debug\net10.0\MusicInheritancePolymorphism.runtimeconfig.json
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 3\InstrumentInheritancePolymorphism\bin\Debug\net10.0\MusicInheritancePolymorphism.dll
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 3\InstrumentInheritancePolymorphism\bin\Debug\net10.0\MusicInheritancePolymorphism.pdb
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 3\InstrumentInheritancePolymorphism\obj\Debug\net10.0\MusicInheritancePolymorphism.dll
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 3\InstrumentInheritancePolymorphism\obj\Debug\net10.0\refint\MusicInheritancePolymorphism.dll
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 3\InstrumentInheritancePolymorphism\obj\Debug\net10.0\MusicInheritancePolymorphism.pdb
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 3\InstrumentInheritancePolymorphism\obj\Debug\net10.0\MusicInheritancePolymorphism.genruntimeconfig.cache
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 3\InstrumentInheritancePolymorphism\obj\Debug\net10.0\ref\MusicInheritancePolymorphism.dll

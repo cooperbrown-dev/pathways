@@ -6,6 +6,8 @@ namespace RestaurantInheritance
   {
     static void Main(string[] args)
     {
+
+        //Declare and instantiate an array of Restaurant objects
         Restaurant[] restaurantArray = new Restaurant[25];
 
         //Loop through each array element and instantiate a new blank Restaurant object
@@ -36,7 +38,7 @@ namespace RestaurantInheritance
             }
         }
 
-        Console.WriteLine();
+        Console.WriteLine(); //space between tests
 
         // test the inheritance with default constructor and parameterized constructor
 
@@ -55,7 +57,7 @@ namespace RestaurantInheritance
         FineDining fd2 = new FineDining("Brother Sebastian's", "Steakhouse", 5, true, false);
         Console.WriteLine(fd2.ToString());
 
-        Console.WriteLine();
+        Console.WriteLine(); //space between tests
 
         // test adding FastFood, Buffet, and FineDining objects to the Restaurant array
 
