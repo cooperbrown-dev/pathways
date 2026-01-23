@@ -25,7 +25,7 @@ namespace EmployeeBonuses
             EmployeeType = employeeType;
         }
 
-        public virtual decimal CalculateBonus()
+        public virtual decimal CalculateBonus() //set to virtual to allow overriding in derived classes
         {
             decimal bonus = 0.00M;
             Console.WriteLine($"{FirstName} {LastName}'s bonus is: ${bonus:0.00}");
@@ -33,7 +33,7 @@ namespace EmployeeBonuses
         }
 
         // Override ToString method for easy file writing
-        public override string ToString()
+        public override string ToString() //does not need the virtual keyword, baked into the ToString method?
         {
             return("Last name: " + LastName + ", First name: " + FirstName + ", Employee type: " + EmployeeType);
         }

@@ -20,7 +20,8 @@ namespace EmployeeBonuses
         Hourly, the bonus is two weeks pay (40 hours per week)
         Salary, the bonus is 10%
         You want a menu that will provide you the options of doing the following:
-        L - Load the single text file into the program.  The text file stores four lines for each employee including last name, first name, employee type and hourly rate or salary (depending on employee type - H or S)
+        L - Load the single text file into the program.  The text file stores four lines for each employee including last name, first name,
+        employee type and hourly rate or salary (depending on employee type - H or S)
         S - Store the current employee information in the text file
         C - Add an employee
         R - Print a list of all the employees including their calculated bonus,
@@ -191,11 +192,11 @@ namespace EmployeeBonuses
                                 sw.WriteLine(employee.EmployeeType);
                                 if (employee is HourlyEmployee) //boolean check to see if employee is HourlyEmployee
                                     {
-                                        sw.WriteLine(((HourlyEmployee)employee).HourlyRate);
+                                        sw.WriteLine(((HourlyEmployee)employee).HourlyRate); //casting HourlyEmployee type to employee to access HourlyRate property
                                     }
                                 else if (employee is SalaryEmployee) //boolean check to see if employee is SalaryEmployee
                                     {
-                                        sw.WriteLine(((SalaryEmployee)employee).AnnualSalary);
+                                        sw.WriteLine(((SalaryEmployee)employee).AnnualSalary); //casting SalaryEmployee type to employee to access AnnualSalary property
                                     }
                                 else
                                     {
@@ -223,11 +224,6 @@ namespace EmployeeBonuses
                         }
                     Console.WriteLine("");
 
-                    /*
-                    Could also use 
-                    File.WriteAllLines(fileName, nameArray);
-                    Console.WriteLine("File saved");
-                    */
                 } //end using StreamWriter
             } // End of S/s area
 
@@ -254,7 +250,6 @@ namespace EmployeeBonuses
                 }
                 while (string.IsNullOrWhiteSpace(newEmployeeLName));
 
-
                 Console.Write ("Please enter new employee first name: ");
                 string newEmployeeFName = Console.ReadLine();
                 Console.Write ("Please enter the new employee type (H or S or O(Hourly/Salaried/Other)): ");
@@ -266,9 +261,6 @@ namespace EmployeeBonuses
                     Console.WriteLine("Please enter a valid decimal number for the pay rate.");
                     Console.Write("Please enter the employee pay rate: ");
                 }
-
-
-                //string newEmployeeStringPay = Console.ReadLine();
 
                 /*   II.  Find an empty spot in the array 
                         A. Initialize indexFound to -1
@@ -319,13 +311,10 @@ namespace EmployeeBonuses
 
                 for (int index = 0; index < arraySize; index++)
                 {
-
-                    //took out the continue to skip to next iteration of loop
-
                     if ((employeeArray[index].LastName != " " && employeeArray[index].LastName != null))
                         {
-                            Console.WriteLine("Index " + index + " is " + employeeArray[index]);
-                            employeeArray[index].CalculateBonus();
+                            Console.WriteLine("Index " + index + " is " + employeeArray[index]); //calls the objects ToString() method
+                            employeeArray[index].CalculateBonus(); //call CalculateBonus() method, which uses polymorphism
                             employeeFound = index;
                         }
                     else
@@ -407,7 +396,6 @@ namespace EmployeeBonuses
                 string deleteEmployeeLName = Console.ReadLine();
                 Console.Write ("Please enter the employee first name to delete: ");
                 string deleteEmployeeFName = Console.ReadLine();
-
 
                 /*II. Check for that name in the array
                     A. Initialize indexFound to -1
