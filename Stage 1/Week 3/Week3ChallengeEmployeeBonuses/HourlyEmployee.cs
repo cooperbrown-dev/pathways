@@ -29,6 +29,7 @@ namespace EmployeeBonuses
         // Override ToString method for easy file writing
         public override string ToString()
         {
+            //could do return base.ToString() + ", " + "Hourly rate: $" + HourlyRate;
             return("Last name: " + LastName + ", First name: " + FirstName + ", Employee type: " + EmployeeType + ", Hourly rate: $" + HourlyRate);
         }
 
