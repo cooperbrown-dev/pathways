@@ -1,0 +1,15 @@
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 4\ListAbstractionEmployeeBonus\obj\Debug\net10.0\ListAbstractionEmployeeBonus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 4\ListAbstractionEmployeeBonus\obj\Debug\net10.0\ListAbstractionEmployeeBonus.AssemblyInfoInputs.cache
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 4\ListAbstractionEmployeeBonus\obj\Debug\net10.0\ListAbstractionEmployeeBonus.AssemblyInfo.cs
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 4\ListAbstractionEmployeeBonus\obj\Debug\net10.0\ListAbstractionEmployeeBonus.csproj.CoreCompileInputs.cache
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 4\ListAbstractionEmployeeBonus\obj\Debug\net10.0\ListAbstractionEmployeeBonus.sourcelink.json
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 4\ListAbstractionEmployeeBonus\bin\Debug\net10.0\ListAbstractionEmployeeBonus.exe
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 4\ListAbstractionEmployeeBonus\bin\Debug\net10.0\ListAbstractionEmployeeBonus.deps.json
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 4\ListAbstractionEmployeeBonus\bin\Debug\net10.0\ListAbstractionEmployeeBonus.runtimeconfig.json
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 4\ListAbstractionEmployeeBonus\bin\Debug\net10.0\ListAbstractionEmployeeBonus.dll
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 4\ListAbstractionEmployeeBonus\bin\Debug\net10.0\ListAbstractionEmployeeBonus.pdb
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 4\ListAbstractionEmployeeBonus\obj\Debug\net10.0\ListAbstractionEmployeeBonus.dll
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 4\ListAbstractionEmployeeBonus\obj\Debug\net10.0\refint\ListAbstractionEmployeeBonus.dll
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 4\ListAbstractionEmployeeBonus\obj\Debug\net10.0\ListAbstractionEmployeeBonus.pdb
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 4\ListAbstractionEmployeeBonus\obj\Debug\net10.0\ListAbstractionEmployeeBonus.genruntimeconfig.cache
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 4\ListAbstractionEmployeeBonus\obj\Debug\net10.0\ref\ListAbstractionEmployeeBonus.dll
