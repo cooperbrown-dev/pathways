@@ -26,6 +26,13 @@ namespace ListAbstractionEmployeeBonuses
             return bonus;
         }
 
+        public override decimal WeeklyPay()
+        {
+            decimal weeklyPay = AnnualSalary / 52;
+            Console.WriteLine($"{FirstName} {LastName}'s weekly pay is: ${weeklyPay:0.00}");
+            return weeklyPay;
+        }
+
         // Override ToString method for easy file writing
         public override string ToString()
         {

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ListAbstractionEmployeeBonus")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+00290a32ac7889264f631429293ba6d15706a922")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f5ca7ffc8b8fd5567d9d7a4cde50cc57b191ee1c")]
 [assembly: System.Reflection.AssemblyProductAttribute("ListAbstractionEmployeeBonus")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ListAbstractionEmployeeBonus")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

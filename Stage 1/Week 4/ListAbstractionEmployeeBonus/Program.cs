@@ -205,7 +205,7 @@ namespace ListAbstractionEmployeeBonuses
 
                 // I.   Prompt the user and get a new employee object to add
 
-                //testing input validation for last name, this only checks if it is blank
+                //Validate last name input isn't blank
                 string newEmployeeLName;
                 do
                 {
@@ -219,10 +219,35 @@ namespace ListAbstractionEmployeeBonuses
                 }
                 while (string.IsNullOrWhiteSpace(newEmployeeLName));
 
-                Console.Write ("Please enter new employee first name: ");
-                string newEmployeeFName = Console.ReadLine();
-                Console.Write ("Please enter the new employee type (H or S or O(Hourly/Salaried/Other)): ");
-                string newEmployeeType = Console.ReadLine();
+
+                //Validate first name input isn't blank
+                string newEmployeeFName;
+                do
+                {
+                    Console.Write ("Please enter new employee first name: ");
+                    newEmployeeFName = Console.ReadLine();
+
+                    if (string.IsNullOrWhiteSpace(newEmployeeFName))
+                    {
+                        Console.WriteLine("First name cannot be blank.");
+                    }
+                }
+                while (string.IsNullOrWhiteSpace(newEmployeeFName));
+
+                //Validate employee type input
+                string newEmployeeType;
+                do
+                {
+                    Console.Write ("Please enter the new employee type (H or S or O(Hourly/Salaried/Other)): ");
+                    newEmployeeType = Console.ReadLine().ToUpper();
+                    if (newEmployeeType != "H" && newEmployeeType != "S" && newEmployeeType != "O")
+                    {
+                        Console.WriteLine("Error: Please enter a valid employee type: H, S, or O.");
+                    }
+                }
+                while (newEmployeeType != "H" && newEmployeeType != "S" && newEmployeeType != "O");
+
+                //Validate pay rate input
                 Console.Write ("Please enter the new employee pay rate: ");
                 decimal newEmployeePayRate;
                 while (!decimal.TryParse(Console.ReadLine(), out newEmployeePayRate))
@@ -284,7 +309,8 @@ namespace ListAbstractionEmployeeBonuses
                     if ((employeeList[index].LastName != " " && employeeList[index].LastName != null))
                         {
                             Console.WriteLine("Index " + index + " is " + employeeList[index]); //calls the objects ToString() method
-                            employeeList[index].CalculateBonus(); //call CalculateBonus() method, which uses polymorphism
+                            employeeList[index].CalculateBonus(); //call WeeklyPay() method, which uses abstraction and polymorphism
+                            employeeList[index].WeeklyPay(); //call WeeklyPay() method, which uses abstraction and polymorphism
                             employeeFound = index;
                         }
                     else
@@ -311,10 +337,56 @@ namespace ListAbstractionEmployeeBonuses
 
             //I. Prompt user to get employee object to update
 
+                //Find and validate last name input
+
+                string employeeLNameToUpdate = " ";
+                string employeeFNameToUpdate = " ";
+
+                bool employeeLNameFound = false;
+
+                while (!employeeLNameFound)
+                {
                 Console.Write ("Please enter the employee last name to update: ");
-                string employeeLNameToUpdate = Console.ReadLine();
-                Console.Write("Please enter the employee first name to update: ");
-                string employeeFNameToUpdate = Console.ReadLine();
+                employeeLNameToUpdate = Console.ReadLine();
+
+                foreach (Employee employee in employeeList)
+                {
+                    if (employee.LastName == employeeLNameToUpdate)
+                    {
+                        employeeLNameFound = true;
+                        Console.WriteLine("Last name found.");
+                        break;
+                    }
+                }
+                    if (!employeeLNameFound)
+                    {
+                        Console.WriteLine("Sorry name not found. Try again.");
+                    }
+                } //end while loop
+
+                //Find and validate first name input
+                bool employeeFNameFound = false;
+
+                while (!employeeFNameFound)
+                {
+                Console.Write ("Please enter the employee first name to update: ");
+                employeeFNameToUpdate = Console.ReadLine();
+
+                foreach (Employee employee in employeeList)
+                {
+                    if (employee.FirstName == employeeFNameToUpdate)
+                    {
+                        employeeFNameFound = true;
+                        Console.WriteLine("First name found.");
+                        break;
+                    }
+                }
+                    if (!employeeFNameFound)
+                    {
+                        Console.WriteLine("Sorry name not found. Try again.");
+                    }
+                } //end while loop
+
                 Console.Write("Please enter the new employee type (H or S or O (Hourly/Salaried/Other)): ");
                 string updateEmployeeTypeTo = Console.ReadLine();
                 Console.Write("Please enter the new employee pay rate: ");

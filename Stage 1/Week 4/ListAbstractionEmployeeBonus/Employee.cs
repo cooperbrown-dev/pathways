@@ -27,6 +27,8 @@ namespace ListAbstractionEmployeeBonuses
 
         public abstract decimal CalculateBonus(); //set to abstract to require overriding in derived classes
 
+        public abstract decimal WeeklyPay(); //abstract method for calculating weekly pay
+
         // Override ToString method for easy file writing
         public override string ToString() //does not need the virtual keyword, baked into the ToString method?
         {
