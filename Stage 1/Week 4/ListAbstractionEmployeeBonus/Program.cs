@@ -173,7 +173,7 @@ namespace ListAbstractionEmployeeBonuses
                                         sw.WriteLine("0.00"); //for generic Employee objects, write 0.00 for pay rate/salary
                                     }
                                 writeStatus = "Successful";
-                            }
+                            } //end of foreach loop
                             //add blank lines at the end of the file for any empty spots in the list
                             for(int i = 0; i < breakCount; i++)
                             {
@@ -357,7 +357,7 @@ namespace ListAbstractionEmployeeBonuses
                         Console.WriteLine("Last name found.");
                         break;
                     }
-                }
+                } //end of foreach loop
                     if (!employeeLNameFound)
                     {
                         Console.WriteLine("Sorry name not found. Try again.");
@@ -380,7 +380,7 @@ namespace ListAbstractionEmployeeBonuses
                         Console.WriteLine("First name found.");
                         break;
                     }
-                }
+                } // end of foreach loop
                     if (!employeeFNameFound)
                     {
                         Console.WriteLine("Sorry name not found. Try again.");
@@ -416,7 +416,7 @@ namespace ListAbstractionEmployeeBonuses
                             break;
                         }
                         i++;
-                    }
+                    } //end foreach loop
                     if (indexFound == -1)
                     {
                         Console.WriteLine ("Sorry name not found.");
@@ -432,10 +432,55 @@ namespace ListAbstractionEmployeeBonuses
 
                 //I. Prompt user to get name to delete
 
+                //Declare variables
+                string deleteEmployeeLName = " ";
+                string deleteEmployeeFName = " ";
+
+                //Find and validate last name input
+                bool employeeLNameFound = false;
+
+                while (!employeeLNameFound)
+                {
                 Console.Write ("Please enter the employee last name to delete: ");
-                string deleteEmployeeLName = Console.ReadLine();
+                deleteEmployeeLName = Console.ReadLine();
+
+                foreach (Employee employee in employeeList)
+                {
+                    if (employee.LastName == deleteEmployeeLName)
+                    {
+                        employeeLNameFound = true;
+                        Console.WriteLine("Last name found.");
+                        break;
+                    }
+                } //end of foreach loop
+                    if (!employeeLNameFound)
+                    {
+                        Console.WriteLine("Sorry name not found. Try again.");
+                    }
+                } //end while loop
+
+                //Find and validate first name input
+                bool employeeFNameFound = false;
+
+                while (!employeeFNameFound)
+                {
                 Console.Write ("Please enter the employee first name to delete: ");
-                string deleteEmployeeFName = Console.ReadLine();
+                deleteEmployeeFName = Console.ReadLine();
+
+                foreach (Employee employee in employeeList)
+                {
+                    if (employee.FirstName == deleteEmployeeFName)
+                    {
+                        employeeFNameFound = true;
+                        Console.WriteLine("First name found.");
+                        break;
+                    }
+                } // end of foreach loop
+                    if (!employeeFNameFound)
+                    {
+                        Console.WriteLine("Sorry name not found. Try again.");
+                    }
+                } //end while loop
 
                 /*II. Check for that name in the list
                     A. Initialize indexFound to -1

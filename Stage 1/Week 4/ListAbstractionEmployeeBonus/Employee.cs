@@ -30,7 +30,7 @@ namespace ListAbstractionEmployeeBonuses
         public abstract decimal WeeklyPay(); //abstract method for calculating weekly pay
 
         // Override ToString method for easy file writing
-        public override string ToString() //does not need the virtual keyword, baked into the ToString method?
+        public override string ToString()
         {
             return("Last name: " + LastName + ", First name: " + FirstName + ", Employee type: " + EmployeeType);
         }
