@@ -1,0 +1,15 @@
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 4\VehicleListInterface\obj\Debug\net10.0\VehicleInterfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 4\VehicleListInterface\obj\Debug\net10.0\VehicleInterfaces.AssemblyInfoInputs.cache
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 4\VehicleListInterface\obj\Debug\net10.0\VehicleInterfaces.AssemblyInfo.cs
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 4\VehicleListInterface\obj\Debug\net10.0\VehicleInterfaces.csproj.CoreCompileInputs.cache
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 4\VehicleListInterface\obj\Debug\net10.0\VehicleInterfaces.sourcelink.json
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 4\VehicleListInterface\bin\Debug\net10.0\VehicleInterfaces.exe
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 4\VehicleListInterface\bin\Debug\net10.0\VehicleInterfaces.deps.json
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 4\VehicleListInterface\bin\Debug\net10.0\VehicleInterfaces.runtimeconfig.json
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 4\VehicleListInterface\bin\Debug\net10.0\VehicleInterfaces.dll
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 4\VehicleListInterface\bin\Debug\net10.0\VehicleInterfaces.pdb
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 4\VehicleListInterface\obj\Debug\net10.0\VehicleInterfaces.dll
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 4\VehicleListInterface\obj\Debug\net10.0\refint\VehicleInterfaces.dll
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 4\VehicleListInterface\obj\Debug\net10.0\VehicleInterfaces.pdb
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 4\VehicleListInterface\obj\Debug\net10.0\VehicleInterfaces.genruntimeconfig.cache
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 4\VehicleListInterface\obj\Debug\net10.0\ref\VehicleInterfaces.dll
