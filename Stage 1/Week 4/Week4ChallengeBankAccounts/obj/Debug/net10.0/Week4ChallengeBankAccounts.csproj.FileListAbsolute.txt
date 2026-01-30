@@ -1,0 +1,15 @@
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 4\Week4ChallengeBankAccounts\bin\Debug\net10.0\Week4ChallengeBankAccounts.exe
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 4\Week4ChallengeBankAccounts\bin\Debug\net10.0\Week4ChallengeBankAccounts.deps.json
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 4\Week4ChallengeBankAccounts\bin\Debug\net10.0\Week4ChallengeBankAccounts.runtimeconfig.json
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 4\Week4ChallengeBankAccounts\bin\Debug\net10.0\Week4ChallengeBankAccounts.dll
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 4\Week4ChallengeBankAccounts\bin\Debug\net10.0\Week4ChallengeBankAccounts.pdb
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 4\Week4ChallengeBankAccounts\obj\Debug\net10.0\Week4ChallengeBankAccounts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 4\Week4ChallengeBankAccounts\obj\Debug\net10.0\Week4ChallengeBankAccounts.AssemblyInfoInputs.cache
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 4\Week4ChallengeBankAccounts\obj\Debug\net10.0\Week4ChallengeBankAccounts.AssemblyInfo.cs
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 4\Week4ChallengeBankAccounts\obj\Debug\net10.0\Week4ChallengeBankAccounts.csproj.CoreCompileInputs.cache
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 4\Week4ChallengeBankAccounts\obj\Debug\net10.0\Week4ChallengeBankAccounts.sourcelink.json
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 4\Week4ChallengeBankAccounts\obj\Debug\net10.0\Week4ChallengeBankAccounts.dll
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 4\Week4ChallengeBankAccounts\obj\Debug\net10.0\refint\Week4ChallengeBankAccounts.dll
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 4\Week4ChallengeBankAccounts\obj\Debug\net10.0\Week4ChallengeBankAccounts.pdb
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 4\Week4ChallengeBankAccounts\obj\Debug\net10.0\Week4ChallengeBankAccounts.genruntimeconfig.cache
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 4\Week4ChallengeBankAccounts\obj\Debug\net10.0\ref\Week4ChallengeBankAccounts.dll
