@@ -1,23 +1,21 @@
-using System;
-
 namespace Week4ChallengeBankAccounts;
 
-class CheckingAccount : Account
+public class CheckingAccount : Account
 {
     // Set properties
-	public decimal AnnualFee { get; set; }
+	public decimal AnnualFee { get; set; } = 0.00m;
 
     // Default empty constructor
-	public CheckingAccount() : base()
-	{
-		AnnualFee = 0.00m;
-	}
+	// public CheckingAccount() : base()
+	// {
+	// 	AnnualFee = 0.00m;
+	// }
 
     // Constructor with parameters
-	public CheckingAccount(int accountID, string accountType, decimal currentBalance, decimal annualFee) : base(accountID, accountType, currentBalance)
-	{
-		AnnualFee = annualFee;
-	}
+	// public CheckingAccount(int accountID, string accountType, decimal currentBalance, decimal annualFee) : base(accountID, accountType, currentBalance)
+	// {
+	// 	AnnualFee = annualFee;
+	// }
 
     // Methods
 

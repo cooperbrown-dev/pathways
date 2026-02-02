@@ -1,43 +1,29 @@
-using System;
-
 namespace Week4ChallengeBankAccounts;
 
-abstract class Account
+public enum AccountType
 {
-    // Set properties
-	public int AccountID { get; set; }
-	public string AccountType { get; set; }
-	public decimal CurrentBalance {get; set;}
+	None,
+	Checking,
+	Savings,
+	CD
+}
 
-    // Default empty constructor
-    public Account()
-	{
-		AccountID = 0;
-		AccountType = "";
-		CurrentBalance = 0.00m;
-	} 
-
-    //Defaust constructor with parameters
-	public Account(int accountID, string accountType, decimal currentBalance) //constructor with parameters
-	{
-		AccountID = accountID;
-		AccountType = accountType;
-		CurrentBalance = currentBalance;
-	}
-
-    // Methods
+public abstract class Account
+{
+	public int AccountID { get; set; } = 0;
+	public AccountType AccountType { get; set; } = AccountType.None;
+	public decimal CurrentBalance {get; set;} = 0.00m;
 
     // Deposit method for all accounts. Deposit amount must be greater than 0.
-    public void Deposit(decimal depositAmount)
-	    {
-            if (depositAmount <= 0)
-            {
-                throw new ArgumentException("Error: Deposit amount must be greater than 0.");
-            }
+    public virtual void Deposit(decimal depositAmount)
+	{
+		if (depositAmount <= 0)
+		{
+			throw new ArgumentException("Error: Deposit amount must be greater than 0.");
+		}
 
-            CurrentBalance += depositAmount; //add the deposit amount to the current balance
-
-	    } // end of Deposit method
+		CurrentBalance += depositAmount; //add the deposit amount to the current balance
+	}
 
     // Abstract Withdraw method to be overridden in derived classes
     public abstract void Withdraw(decimal withdrawAmount);
@@ -48,5 +34,4 @@ abstract class Account
 		return $"Account ID: {AccountID} | Account type: {AccountType} | Current balance: {CurrentBalance.ToString("C")}.";
 	}
 
-
-} // end of class
+}

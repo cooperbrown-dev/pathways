@@ -1,41 +1,37 @@
-using System;
-
 namespace Week4ChallengeBankAccounts;
 
-class CDAccount : Account
+public class CDAccount : Account, IAnnualAmountEarnedFromInterest
 {
     // Set properties
-	public decimal AnnualInterestRate { get; set; }
-	public decimal PenaltyForEarlyWithdrawal { get; set; }
+	public decimal AnnualInterestRate { get; set; } = 0.00m;
+	public decimal PenaltyForEarlyWithdrawal { get; set; } = 0.00m;
 
     // Default empty constructor
-    public CDAccount() : base()
-    {
-        AnnualInterestRate = 0.00m;
-        PenaltyForEarlyWithdrawal = 0.00m;
-    }
+    // public CDAccount() : base()
+    // {
+    //     AnnualInterestRate = 0.00m;
+    //     PenaltyForEarlyWithdrawal = 0.00m;
+    // }
 
-    // Constructor with parameters
-    public CDAccount(int accountID, string accountType, decimal currentBalance, decimal annualInterestRate, decimal penaltyForEarlyWithdrawal)
-    : base(accountID, accountType, currentBalance)
-    {
-        AnnualInterestRate = annualInterestRate;
-        PenaltyForEarlyWithdrawal = penaltyForEarlyWithdrawal;
-    }
-
-    // Methods
+    // // Constructor with parameters
+    // public CDAccount(int accountID, string accountType, decimal currentBalance, decimal annualInterestRate, decimal penaltyForEarlyWithdrawal)
+    // : base(accountID, accountType, currentBalance)
+    // {
+    //     AnnualInterestRate = annualInterestRate;
+    //     PenaltyForEarlyWithdrawal = penaltyForEarlyWithdrawal;
+    // }
 
     // Withdraw method for CDAccount. Early withdrawal penalty is applied when withdrawing.
     public override void Withdraw(decimal withdrawAmount)
     {
-        decimal currentPenalty = withdrawAmount * PenaltyForEarlyWithdrawal;
+        var currentPenalty = withdrawAmount * PenaltyForEarlyWithdrawal;
         if (withdrawAmount <= 0)
         {
             throw new ArgumentException("Error: Withdraw amount must be greater than 0.");
         }
         if (withdrawAmount <= CurrentBalance)
         {
-            decimal totalWithdrawal = withdrawAmount + (withdrawAmount * PenaltyForEarlyWithdrawal);
+            var totalWithdrawal = withdrawAmount + (withdrawAmount * PenaltyForEarlyWithdrawal);
             if (totalWithdrawal <= CurrentBalance)
             {
                 CurrentBalance -= totalWithdrawal;

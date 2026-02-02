@@ -3,22 +3,38 @@ using System.Collections.Generic;   // needed for Lists
 
 namespace Week4ChallengeBankAccounts;
 
-class Program
+public static class Program
 {
-    static void Main (string[] args)
+    public static void Main (string[] args)
     {
         // Create an empty list of Accounts
-        List<Account> accountList = new List<Account>();
-
-        //Adding accounts to the list
-        accountList.Add(new SavingsAccount(1001, "Savings", 100000, 0.03m));
-        accountList.Add(new CheckingAccount(1002, "Checking", 50000, 50.00m));
-        accountList.Add(new CDAccount(1003, "CD", 20000, 0.06m, 0.08m));
-
-        foreach(Account account in accountList)
+        var accountList = new List<Account>()
         {
-            Console.WriteLine(account);
-        }
+            new SavingsAccount
+            {
+                AccountID = 1001,
+                AccountType = AccountType.Savings,
+                CurrentBalance = 100000.00m,
+                AnnualInterestRate = 0.03m
+            }, 
+            new CheckingAccount
+            {
+                AccountID = 1002,
+                AccountType = AccountType.Checking,
+                CurrentBalance = 50000.00m,
+                AnnualFee = 50.00m
+            },
+            new CDAccount
+            {
+                AccountID = 1003,
+                AccountType = AccountType.CD,
+                CurrentBalance = 20000.00m,
+                AnnualInterestRate = 0.06m,
+                PenaltyForEarlyWithdrawal = 0.08m
+            }
+        };
+
+        accountList.ForEach(account => Console.WriteLine(account)); // Write initial account info to console
 
         bool userChoice;
         string userChoiceString;
@@ -64,33 +80,46 @@ class Program
                 Console.WriteLine("In the D area");
 //D
                 // Prompt user for account ID and confirm it exists.
-                Account foundAccount = null;
-
-                while (foundAccount == null)
+                //Account accountFound = null;
+                var running = true;
+                while (running)
                 {
-                    try
-                    {
+                    //try
+                    //{
                         Console.Write("Enter account ID to deposit money into: ");
-                        int accountIDInput = int.Parse(Console.ReadLine());
+                        //int accountIDInput = int.Parse(Console.ReadLine());
 
-                        foreach(Account account in accountList)
+                        if(!int.TryParse(Console.ReadLine(), out int accountIDInput))
                         {
-                            if (account.AccountID == accountIDInput)
-                            {
-                                foundAccount = account;
-                                break;
-                            }
+                            Console.WriteLine("Invalid account ID format. Please enter a valid integer.");
+                            continue;
                         }
 
-                        if (foundAccount == null)
+                        var i = accountList.Find(x => x.AccountID == accountIDInput);
+                        if (i == null)
                         {
-                            Console.WriteLine("Account not found, please try again.");
+                            Console.WriteLine("Account not found.");
+                            continue;
                         }
-                    } // end of try
-                    catch (FormatException)
-                    {
-                        Console.WriteLine("Invalid input format. Please enter a valid account ID.");
-                    }
+
+                        // foreach(Account account in accountList)
+                        // {
+                        //     if (account.AccountID == accountIDInput)
+                        //     {
+                        //         accountFound = account;
+                        //         break;
+                        //     }
+                        // }
+
+                        // if (accountFound == null)
+                        // {
+                        //     Console.WriteLine("Account not found, please try again.");
+                        // }
+                    //} // end of try
+                    // catch (FormatException)
+                    // {
+                    //     Console.WriteLine("Invalid input format. Please enter a valid account ID.");
+                    // }
                 } //end of accountID while loop
 
                 // Prompt user for deposit amount and confirm it's valid
@@ -101,12 +130,12 @@ class Program
                 {
                     try
                     {
-                        Console.Write($"Enter $ amount to deposit, current balance: {foundAccount.CurrentBalance:C}: ");
+                        Console.Write($"Enter $ amount to deposit, current balance: {accountFound.CurrentBalance:C}: ");
                         depositAmountInput = decimal.Parse(Console.ReadLine());
                         
-                        foundAccount.Deposit(depositAmountInput);
+                        accountFound.Deposit(depositAmountInput);
                         validDepositAmount = true;
-                        Console.WriteLine("Deposit successful. New balance is: " + foundAccount.CurrentBalance.ToString("C"));
+                        Console.WriteLine("Deposit successful. New balance is: " + accountFound.CurrentBalance.ToString("C"));
                     }
                     catch (FormatException)
                     {
@@ -125,7 +154,7 @@ class Program
                 Console.WriteLine("In the W area");
 //W
                 // Find and confirm account exists
-                Account accountFound = null;
+                Account accountFound = null;  //can this be the same as foundAccount in D area? Scope issue?
 
                 // Prompt user for account ID and confirm it exists.
                 while (accountFound == null)

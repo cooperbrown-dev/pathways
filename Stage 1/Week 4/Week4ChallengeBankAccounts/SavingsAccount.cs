@@ -2,22 +2,22 @@ using System;
 
 namespace Week4ChallengeBankAccounts;
 
-class SavingsAccount : Account
+public class SavingsAccount : Account, IAnnualAmountEarnedFromInterest
 {
     // Set properties
-	public decimal AnnualInterestRate { get; set; }
+	public decimal AnnualInterestRate { get; set; } = 0.00m; //constructor paramaters are redundant
 
     // Default empty constructor
-	public SavingsAccount() : base()
-	{
-		AnnualInterestRate = 0.00m;
-	}
+	// public SavingsAccount() : base()
+	// {
+	// 	AnnualInterestRate
+	// }
 
     // Constructor with parameters
-	public SavingsAccount( int accountID, string accountType, decimal currentBalance, decimal annualInterestRate) : base(accountID, accountType, currentBalance)
-	{
-		AnnualInterestRate = annualInterestRate;
-	}
+	// public SavingsAccount( int accountID, string accountType, decimal currentBalance, decimal annualInterestRate) : base(accountID, accountType, currentBalance)
+	// {
+	// 	AnnualInterestRate = annualInterestRate;
+	// }
 
     // Methods
 

@@ -1,4 +1,4 @@
 interface IAnnualAmountEarnedFromInterest
 {
-    decimal AnnualAmountEarnedFromInterest(); // interface method
+    double AnnualAmountEarnedFromInterest(); // interface method
 }
