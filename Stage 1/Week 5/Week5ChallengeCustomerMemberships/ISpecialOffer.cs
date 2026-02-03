@@ -1,4 +1,4 @@
 interface ISpecialOffer
 {
-    decimal ApplySpecialOffer(decimal purchaseAmount);
+    string SpecialOffer(decimal annualCost);
 }

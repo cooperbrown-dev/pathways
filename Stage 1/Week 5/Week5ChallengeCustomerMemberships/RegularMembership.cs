@@ -17,16 +17,18 @@ public class RegularMembership : Membership, ISpecialOffer
     public override void ApplyCashBackRewards()
     {
         decimal cashBack = CurrentMonthlyPurchases * CashBackRate;
-        CurrentMonthlyPurchases -= cashBack; // Apply cash back by reducing current monthly purchases
+        Console.WriteLine($"Cash-back reward processed for {MembershipType} Membership {MembershipID}: {cashBack:C} redeemed on {CurrentMonthlyPurchases:C} spent at a {CashBackRate:P} cash back rate. Current balance: $0.00.");
+        cashBack = 0.0m;
     }
 
-    public decimal ApplySpecialOffer(decimal purchaseAmount)
+    public string SpecialOffer(decimal AnnualCost)
     {
-        return purchaseAmount * CashBackRate;
+        decimal result = AnnualCost * 0.25m;
+        return result.ToString("C");
     }
 
     public override string ToString()
     {
-        return base.ToString() + $" | Cash Back Rate: {CashBackRate:P}";
+        return base.ToString() + $" | Cash Back Rate: {CashBackRate:P} | Special offer available: {SpecialOffer(AnnualCost).ToString()} for an annual {MembershipType} membership. 75% off!";
     }
 }

@@ -17,7 +17,9 @@ public class CorporateMembership : Membership
     public override void ApplyCashBackRewards()
     {
         decimal cashBack = CurrentMonthlyPurchases * CashBackRate; 
-        CurrentMonthlyPurchases -= cashBack; // Apply cash back by reducing current monthly purchases
+        Console.WriteLine($"Cash-back reward processed for {MembershipType} Membership {MembershipID}: {cashBack:C} redeemed on {CurrentMonthlyPurchases:C} spent at a {CashBackRate:P} cash back rate. Current balance: $0.00.");
+        cashBack = 0.0m;
+
     }
 
     public override string ToString()

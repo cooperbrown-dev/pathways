@@ -36,10 +36,10 @@ public abstract class Membership
         CurrentMonthlyPurchases -= amount;
     }
 
-    public abstract decimal ApplyCashBackRewards();
+    public abstract void ApplyCashBackRewards();
 
     public override string ToString()
     {
-        return $"Membership ID: {MembershipID} | Contact Email: {ContactEmail} | Membership Type: {MembershipType} | Annual Cost: {AnnualCost:C} | Current Monthly Purchases: {CurrentMonthlyPurchases:C}";
+        return $"Membership ID: {MembershipID} | Membership Type: {MembershipType} | Contact Email: {ContactEmail} | Annual Cost: {AnnualCost:C} | Current Monthly Purchases: {CurrentMonthlyPurchases:C}";
     }
 }

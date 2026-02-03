@@ -19,12 +19,24 @@ public class NonProfitMembership : Membership
 
     public override void ApplyCashBackRewards()
     {
-        decimal cashBack = CurrentMonthlyPurchases * CashBackRate;
-        CurrentMonthlyPurchases -= cashBack; // Apply cash back by reducing current monthly purchases
+        decimal cashBack = 0.0m;
+        if (IsItAMilitaryOrEducationalOrganization)
+        {
+            cashBack = (CashBackRate * 2) * CurrentMonthlyPurchases;
+            Console.WriteLine($"Cash-back reward processed for Membership {MembershipID}: {cashBack:C} redeemed on {CurrentMonthlyPurchases:C} spent at a {(CashBackRate * 2):P} (double the rate for military or educational organizations). Current balance: $0.00.");
+
+        }
+        else
+        {
+            cashBack = CashBackRate * CurrentMonthlyPurchases;
+            Console.WriteLine($"Cash-back reward processed for {MembershipType} Membership {MembershipID}: {cashBack:C} redeemed on {CurrentMonthlyPurchases:C} spent at a {CashBackRate:P} cash back rate. Current balance: $0.00.");
+
+        }
+        cashBack = 0.0m;
     }
 
     public override string ToString()
     {
-        return base.ToString() + $" | Cash Back Rate: {CashBackRate:P} | Military or Educational Organization ?: {IsItAMilitaryOrEducationalOrganization}";
+        return base.ToString() + $" | Cash Back Rate: {CashBackRate:P} | Military or Educational Organization?: {IsItAMilitaryOrEducationalOrganization}";
     }
 }
