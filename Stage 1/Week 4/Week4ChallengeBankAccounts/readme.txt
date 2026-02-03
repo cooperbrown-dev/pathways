@@ -20,4 +20,4 @@ Then, provide the user the following options:
 L - List all of the accounts in the list including the account id, balance, and account type and also as appropriate the interest rate, annual fee, and early penalty, and finally for interest-bearing accounts, the amount of annual interest given the current balance and interest rate
 D - Perform a deposit transaction by getting an account number from the user and a deposit amount and if the account exists add the deposit amount to the balance
 W - Perform a withdrawal transaction by getting an account number from the user and a withdrawal amount and if the account exists with enough of a balance, perform the withdrawal including any penalties
-Q - Quit the transaction processing0
+Q - Quit the transaction processing

@@ -1,0 +1,15 @@
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 5\Week5ChallengeCustomerMemberships\obj\Debug\net10.0\Week5ChallengeCustomerMemberships.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 5\Week5ChallengeCustomerMemberships\obj\Debug\net10.0\Week5ChallengeCustomerMemberships.AssemblyInfoInputs.cache
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 5\Week5ChallengeCustomerMemberships\obj\Debug\net10.0\Week5ChallengeCustomerMemberships.AssemblyInfo.cs
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 5\Week5ChallengeCustomerMemberships\obj\Debug\net10.0\Week5ChallengeCustomerMemberships.csproj.CoreCompileInputs.cache
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 5\Week5ChallengeCustomerMemberships\obj\Debug\net10.0\Week5ChallengeCustomerMemberships.sourcelink.json
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 5\Week5ChallengeCustomerMemberships\bin\Debug\net10.0\Week5ChallengeCustomerMemberships.exe
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 5\Week5ChallengeCustomerMemberships\bin\Debug\net10.0\Week5ChallengeCustomerMemberships.deps.json
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 5\Week5ChallengeCustomerMemberships\bin\Debug\net10.0\Week5ChallengeCustomerMemberships.runtimeconfig.json
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 5\Week5ChallengeCustomerMemberships\bin\Debug\net10.0\Week5ChallengeCustomerMemberships.dll
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 5\Week5ChallengeCustomerMemberships\bin\Debug\net10.0\Week5ChallengeCustomerMemberships.pdb
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 5\Week5ChallengeCustomerMemberships\obj\Debug\net10.0\Week5ChallengeCustomerMemberships.dll
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 5\Week5ChallengeCustomerMemberships\obj\Debug\net10.0\refint\Week5ChallengeCustomerMemberships.dll
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 5\Week5ChallengeCustomerMemberships\obj\Debug\net10.0\Week5ChallengeCustomerMemberships.pdb
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 5\Week5ChallengeCustomerMemberships\obj\Debug\net10.0\Week5ChallengeCustomerMemberships.genruntimeconfig.cache
+C:\Users\Cooper\OneDrive - Meal Lab\Desktop\Pathways\Stage 1\Week 5\Week5ChallengeCustomerMemberships\obj\Debug\net10.0\ref\Week5ChallengeCustomerMemberships.dll
