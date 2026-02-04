@@ -218,13 +218,15 @@ namespace Week5ChallengeCustomerMemberships;
                             }
                         }
 
+                        Membership newMembership = null;
+
                         if (membershipTypeInput.ToUpper().Equals("REGULAR") || membershipTypeInput.ToUpper().Equals("R"))
                         {
-                        membershipList.Add(new RegularMembership(membershipIDInput, contactEmailInput, currentMonthlyPurchasesInput));
+                        newMembership = new RegularMembership(membershipIDInput, contactEmailInput, currentMonthlyPurchasesInput);
                         }
                         else if (membershipTypeInput.ToUpper().Equals("EXECUTIVE") || membershipTypeInput.ToUpper().Equals("E"))
                         {
-                        membershipList.Add(new ExecutiveMembership(membershipIDInput, contactEmailInput, currentMonthlyPurchasesInput));
+                        newMembership = new ExecutiveMembership(membershipIDInput, contactEmailInput, currentMonthlyPurchasesInput);
                         }
                         else if (membershipTypeInput.ToUpper().Equals("NONPROFIT") || membershipTypeInput.ToUpper().Equals("N"))
                         {
@@ -252,14 +254,16 @@ namespace Week5ChallengeCustomerMemberships;
                                 }
                             }
     
-                            membershipList.Add(new NonProfitMembership(membershipIDInput, contactEmailInput, currentMonthlyPurchasesInput, isMilitaryOrEducational));
+                            newMembership = new NonProfitMembership(membershipIDInput, contactEmailInput, currentMonthlyPurchasesInput, isMilitaryOrEducational);
                         }
                         else if (membershipTypeInput.ToUpper().Equals("CORPORATE") || membershipTypeInput.ToUpper().Equals("C"))
                         {
-                        membershipList.Add(new CorporateMembership(membershipIDInput, contactEmailInput, currentMonthlyPurchasesInput));
+                        newMembership = new CorporateMembership(membershipIDInput, contactEmailInput, currentMonthlyPurchasesInput);
                         }
 
-                        Console.WriteLine($"New {membershipTypeInput} membership {membershipIDInput} created successfully.");
+                        membershipList.Add(newMembership);
+
+                        Console.WriteLine($"New {newMembership.MembershipType} membership {newMembership.MembershipID} created successfully.");
 
                         } // end of C area
         //U
@@ -578,7 +582,7 @@ namespace Week5ChallengeCustomerMemberships;
                                 }
                                 else
                                 {
-                                    Console.WriteLine("Invalid input. Please enter a valid number above 0for the return amount.");
+                                    Console.WriteLine("Invalid input. Please enter a valid number above 0 for the return amount.");
                                 }
                             }
                         } // end of T area
