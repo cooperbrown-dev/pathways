@@ -29,7 +29,7 @@ public class ExecutiveMembership : Membership, ISpecialOffer
         if (CurrentMonthlyPurchases >= 1000.0m)
         {
             over1000CashBack = (999.99m * Below1000DollarsSpentCashBackRate) + ((CurrentMonthlyPurchases - 999.99m) * Above1000DollarsSpentCashBackRate);
-            Console.WriteLine($"Cash-back reward processed for {MembershipType} Membership {MembershipID}: {over1000CashBack:C} redeemed on {CurrentMonthlyPurchases:C} spent at a {Below1000DollarsSpentCashBackRate:P} under cash back rate for purchases under $1000 and {Above1000DollarsSpentCashBackRate:P} cash back rate for purchases over $1000. Current balance: $0.00.");
+            Console.WriteLine($"Cash-back reward processed for {MembershipType} Membership {MembershipID}: {over1000CashBack:C} redeemed on {CurrentMonthlyPurchases:C} spent. {Below1000DollarsSpentCashBackRate:P} cash back rate for purchases under $1000 and {Above1000DollarsSpentCashBackRate:P} cash back rate for purchases over $1000. Current balance: $0.00.");
         }
 
         under1000CashBack = 0.0m;

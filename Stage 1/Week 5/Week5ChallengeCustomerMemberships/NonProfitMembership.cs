@@ -23,7 +23,7 @@ public class NonProfitMembership : Membership
         if (IsItAMilitaryOrEducationalOrganization)
         {
             cashBack = (CashBackRate * 2) * CurrentMonthlyPurchases;
-            Console.WriteLine($"Cash-back reward processed for Membership {MembershipID}: {cashBack:C} redeemed on {CurrentMonthlyPurchases:C} spent at a {(CashBackRate * 2):P} (double the rate for military or educational organizations). Current balance: $0.00.");
+            Console.WriteLine($"Cash-back reward processed for {MembershipType} Membership {MembershipID}: {cashBack:C} redeemed on {CurrentMonthlyPurchases:C} spent at a {(CashBackRate * 2):P} (double the rate for military or educational organizations). Current balance: $0.00.");
 
         }
         else
