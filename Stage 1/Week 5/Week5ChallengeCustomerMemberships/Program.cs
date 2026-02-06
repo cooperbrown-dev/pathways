@@ -120,19 +120,15 @@ namespace Week5ChallengeCustomerMemberships;
                             continue;
                         }
 
-        //R             R - Read all of the memberships in the membership list. - ID, and type only.
+        //R             R - Read all of the memberships in the membership list.
 
                         if (userChoiceString.ToUpper().Equals("R"))
                         {
                             Console.WriteLine("Membership List:");
 
                             List<Membership> sortedList = membershipList.OrderBy(m => m.MembershipID).ToList();
-
-                            foreach(Membership membership in sortedList)
-                            {
-                                Console.WriteLine(membership);
-                            }
-                        } // end of R area
+                            sortedList.ForEach(membership => Console.WriteLine(membership));
+                        }
                     
         //C             C - Create a new membership and add it to the membership list. Be sure you don't duplicate the member ID. It needs to be unqiue.
                         else if (userChoiceString.ToUpper().Equals("C"))
@@ -166,8 +162,8 @@ namespace Week5ChallengeCustomerMemberships;
                         } //end of membershipIDValidation while loop
 
                         Console.WriteLine("Membership ID available. Please continue entering membership information.");
-
                         Console.WriteLine("Enter membership type (Regular, Executive, NonProfit, Corporate): ");
+
                         bool validMembershipType = false;
                         string membershipTypeInput = "";
                         while (!validMembershipType)
@@ -485,13 +481,8 @@ namespace Week5ChallengeCustomerMemberships;
                             Console.WriteLine("Membership List:");
 
                             List<Membership> sortedList = membershipList.OrderBy(m => m.MembershipID).ToList();
-
-                            foreach(Membership membership in sortedList)
-                            {
-                                Console.WriteLine(membership);
-                            }
-                            
-                        } // end of L area
+                            sortedList.ForEach(membership => Console.WriteLine(membership));
+                        }
 
             //P         Perform a purchase transaction by getting a membership number from the user and a purchase amount and if 
                         // the membership exists add the purchase amount to the monthly purchase total.
@@ -499,8 +490,8 @@ namespace Week5ChallengeCustomerMemberships;
                         else if (userChoiceString.ToUpper().Equals("P"))
                         {
                             Console.WriteLine("Starting purchase transaction.");
-
                             Console.WriteLine("Please enter the membership ID for the purchase transaction:");
+
                             bool running = true;
                             int membershipIDForPurchase = 0;
                             Membership membershipFound = null;
@@ -631,13 +622,11 @@ namespace Week5ChallengeCustomerMemberships;
                         else if (userChoiceString.ToUpper().Equals("Q"))
                         {
                             Console.WriteLine("Quitting the program... Goodbye!");
-                        } // end of Q area
-
+                        }
                     } //end of while loop for Transaction Processing Options
-
                 } // end of Transaction Processing Options area
 
-        //Q
+        //Q     Quit the program.
                 else if (userChoiceString.ToUpper().Equals("Q"))
                 {
                     Console.WriteLine("Quitting the program... Goodbye!");
