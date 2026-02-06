@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Cooper\\OneDrive - Meal Lab\\Desktop\\Pathways\\Stage 1\\Week 1\\newesthelloworld\\newesthelloworld.csproj": {}
+    "C:\\Users\\Cooper\\OneDrive - Meal Lab\\Desktop\\Pathways\\Stage 1\\Week 1\\newesthelloworld\\newesthelloworld.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Cooper\\OneDrive - Meal Lab\\Desktop\\Pathways\\Stage 1\\Week 1\\newesthelloworld\\newesthelloworld.csproj": {
+    "C:\\Users\\Cooper\\OneDrive - Meal Lab\\Desktop\\Pathways\\Stage 1\\Week 1\\newesthelloworld\\newesthelloworld.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Cooper\\OneDrive - Meal Lab\\Desktop\\Pathways\\Stage 1\\Week 1\\newesthelloworld\\newesthelloworld.csproj",
+        "projectUniqueName": "C:\\Users\\Cooper\\OneDrive - Meal Lab\\Desktop\\Pathways\\Stage 1\\Week 1\\newesthelloworld\\newesthelloworld.csproj",
         "projectName": "newesthelloworld",
-        "projectPath": "c:\\Users\\Cooper\\OneDrive - Meal Lab\\Desktop\\Pathways\\Stage 1\\Week 1\\newesthelloworld\\newesthelloworld.csproj",
+        "projectPath": "C:\\Users\\Cooper\\OneDrive - Meal Lab\\Desktop\\Pathways\\Stage 1\\Week 1\\newesthelloworld\\newesthelloworld.csproj",
         "packagesPath": "C:\\Users\\Cooper\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Cooper\\OneDrive - Meal Lab\\Desktop\\Pathways\\Stage 1\\Week 1\\newesthelloworld\\obj\\",
+        "outputPath": "C:\\Users\\Cooper\\OneDrive - Meal Lab\\Desktop\\Pathways\\Stage 1\\Week 1\\newesthelloworld\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
