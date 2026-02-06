@@ -215,6 +215,7 @@ namespace Week5ChallengeCustomerMemberships;
                         }
 
                         Membership newMembership = null;
+                        //test branch commit
 
                         if (membershipTypeInput.ToUpper().Equals("REGULAR") || membershipTypeInput.ToUpper().Equals("R"))
                         {
