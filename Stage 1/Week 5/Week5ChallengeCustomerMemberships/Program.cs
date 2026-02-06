@@ -169,10 +169,10 @@ namespace Week5ChallengeCustomerMemberships;
                         while (!validMembershipType)
                         {
                             membershipTypeInput = Console.ReadLine().ToUpper();
-                            if (membershipTypeInput.Equals("REGULAR") || membershipTypeInput.Equals("R") || 
-                            membershipTypeInput.Equals("EXECUTIVE") || membershipTypeInput.Equals("E") ||
-                            membershipTypeInput.Equals("NONPROFIT") || membershipTypeInput.Equals("N") ||
-                             membershipTypeInput.Equals("CORPORATE")|| membershipTypeInput.Equals("C"))
+                            if (membershipTypeInput is "REGULAR" or "R" || 
+                            membershipTypeInput is "EXECUTIVE" or "E" ||
+                            membershipTypeInput is "NONPROFIT" or "N" ||
+                             membershipTypeInput is "CORPORATE" or "C")
                             {
                                 validMembershipType = true;
                             }
@@ -215,47 +215,50 @@ namespace Week5ChallengeCustomerMemberships;
                         }
 
                         Membership newMembership = null;
-                        //test branch commit
 
-                        if (membershipTypeInput.ToUpper().Equals("REGULAR") || membershipTypeInput.ToUpper().Equals("R"))
+                        switch (membershipTypeInput.ToUpper())
                         {
-                        newMembership = new RegularMembership(membershipIDInput, contactEmailInput, currentMonthlyPurchasesInput);
-                        }
-                        else if (membershipTypeInput.ToUpper().Equals("EXECUTIVE") || membershipTypeInput.ToUpper().Equals("E"))
-                        {
-                        newMembership = new ExecutiveMembership(membershipIDInput, contactEmailInput, currentMonthlyPurchasesInput);
-                        }
-                        else if (membershipTypeInput.ToUpper().Equals("NONPROFIT") || membershipTypeInput.ToUpper().Equals("N"))
-                        {
-                            Console.WriteLine("Is this a military or educational organization? (yes/no): ");
+                            case "REGULAR":
+                            case "R":
+                                newMembership = new RegularMembership(membershipIDInput, contactEmailInput, currentMonthlyPurchasesInput);
+                                break;
+                            case "EXECUTIVE":
+                            case "E":
+                                newMembership = new ExecutiveMembership(membershipIDInput, contactEmailInput, currentMonthlyPurchasesInput);
+                                break;
+                            case "CORPORATE":
+                            case "C":
+                                newMembership = new CorporateMembership(membershipIDInput, contactEmailInput, currentMonthlyPurchasesInput);
+                                break;
+                            case "NONPROFIT":
+                            case "N":
+                                Console.WriteLine("Is this a military or educational organization? (yes/no): ");
+                                running = true;
+                                bool isMilitaryOrEducational = false;
+                                string isMilitaryOrEducationalInput = "";
+                                while (running)
+                                {
+                                    isMilitaryOrEducationalInput = Console.ReadLine();
+                                    if (isMilitaryOrEducationalInput.ToUpper() is "YES" or "Y")
+                                    {
+                                        isMilitaryOrEducational = true;
+                                        running = false;
+                                    }
+                                    else if (isMilitaryOrEducationalInput.ToUpper() is "NO" or "N")
+                                    {
+                                        isMilitaryOrEducational = false;
+                                        running = false;
+                                    }
+                                    else
+                                    {
+                                        Console.WriteLine("Invalid input. Please enter 'yes' or 'no'.");
+                                    }
+                                }
 
-                            running = true;
-                            bool isMilitaryOrEducational = false;
-                            string isMilitaryOrEducationalInput = "";
-                            while (running)
-                            {
-                                isMilitaryOrEducationalInput = Console.ReadLine();
-                                if (isMilitaryOrEducationalInput.ToUpper().Equals("YES") || isMilitaryOrEducationalInput.ToUpper().Equals("Y"))
-                                {
-                                    isMilitaryOrEducational = true;
-                                    running = false;
-                                }
-                                else if (isMilitaryOrEducationalInput.ToUpper().Equals("NO") || isMilitaryOrEducationalInput.ToUpper().Equals("N"))
-                                {
-                                    isMilitaryOrEducational = false;
-                                    running = false;
-                                }
-                                else
-                                {
-                                    Console.WriteLine("Invalid input. Please enter 'yes' or 'no'.");
-                                }
-                            }
-    
-                            newMembership = new NonProfitMembership(membershipIDInput, contactEmailInput, currentMonthlyPurchasesInput, isMilitaryOrEducational);
-                        }
-                        else if (membershipTypeInput.ToUpper().Equals("CORPORATE") || membershipTypeInput.ToUpper().Equals("C"))
-                        {
-                        newMembership = new CorporateMembership(membershipIDInput, contactEmailInput, currentMonthlyPurchasesInput);
+                                newMembership = new NonProfitMembership(membershipIDInput, contactEmailInput, currentMonthlyPurchasesInput, isMilitaryOrEducational);
+                                break;
+                            default:
+                                throw new Exception("Unexpected membership type.");
                         }
 
                         membershipList.Add(newMembership);
