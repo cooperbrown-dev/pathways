@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background: #1B1F3B;
+}
+
+body {
+    color: white;
+}
+
+main > * {
+    border: 1px solid red;
+    margin: 10px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+main > section {
+    width: 33%;
+}

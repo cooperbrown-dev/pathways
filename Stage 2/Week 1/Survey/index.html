@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do you have any pets?</title>
+
+    <link rel="stylesheet" href="survey.css">
+
+    <script>
+      function myFunction() {
+          var newname = document.getElementById("name").value;
+          alert ("Survey received! Thank you " + newname + "!");
+      }
+  </script>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+          <h1 id="title" class="text-center">Survey: Do you have any pets?</h1>
+          <p id="description" class="description text-center">
+            Doggos, cats, fish, etc. We want to know! Please fill out the survey below.
+          </p>
+        </header>
+        <form id="survey-form" onsubmit="myFunction()">
+          <div class="form-group">
+            <label id="name-label" for="name">Name</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              class="form-control"
+              placeholder="Enter your name"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label id="email-label" for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="form-control"
+              placeholder="Enter your Email"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <p>How many pets do you currently have?</p>
+            <select id="dropdown" name="role" class="form-control" required>
+              <option disabled selected value>Select option</option>
+              <option value="student">None</option>
+              <option value="fullfull">1 Pet</option>
+              <option value="fullpart">2 Pets</option>
+              <option value="partfull">3 Pets</option>
+              <option value="partpart">4 Pets</option>
+              <option value="partfull">5 Pets</option>
+              <option value="partpart">6 Pets</option>
+              <option value="partpart">7+ Pets</option>
+            </select>
+          </div>
+      
+          <div class="form-group">
+            <p>Do you want more pets?</p>
+            <label>
+              <input
+                name="user-recommend"
+                value="definitely"
+                type="radio"
+                class="input-radio"
+                checked
+              />Definitely</label
+            >
+            <label>
+              <input
+                name="user-recommend"
+                value="maybe"
+                type="radio"
+                class="input-radio"
+              />Maybe</label
+            >
+      
+            <label
+              ><input
+                name="user-recommend"
+                value="not-sure"
+                type="radio"
+                class="input-radio"
+              />Not sure</label
+            >
+            <label
+              ><input
+                name="user-recommend"
+                value="no-way"
+                type="radio"
+                class="input-radio"
+              />No way, they're too much</label
+            >
+          </div>
+      
+      
+          <div class="form-group">
+            <p>
+              What kind of pets do you have?  (Check all that apply)</p>
+            </p>
+      
+            <label
+              ><input
+                name="prefer"
+                value="activities"
+                type="checkbox"
+                class="input-checkbox"
+              />Dog(s)</label
+            >
+            <label>
+              <input
+                name="prefer"
+                value="assignments"
+                type="checkbox"
+                class="input-checkbox"
+              />Cat(s)</label
+            >
+            <label
+              ><input
+                name="prefer"
+                value="attention"
+                type="checkbox"
+                class="input-checkbox"
+              />Fish</label
+            >
+            <label
+              ><input
+                name="prefer"
+                value="resources"
+                type="checkbox"
+                class="input-checkbox"
+              />Reptile(s)</label
+            >
+            <label
+              ><input
+                name="prefer"
+                value="resources"
+                type="checkbox"
+                class="input-checkbox"
+              />Bird(s)</label
+            >
+            <label
+              ><input
+                name="prefer"
+                value="resources"
+                type="checkbox"
+                class="input-checkbox"
+              />Other</label
+       
+          </div>
+      
+          <div class="form-group">
+            <p>What are your pets names?</p>
+            <textarea
+              id="comments"
+              class="input-textarea"
+              name="comment"
+              placeholder="Enter your pets' names here..."
+            ></textarea>
+          </div>
+      
+          <div class="form-group">
+            <button type="submit" id="submit" class="submit-button">
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
+      
+
+</body>
+</html>

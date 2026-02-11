@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header><h1>Cooper's Palindrome Checker</h1></header>
+    <main>
+        <section>
+            <h2>Enter information below:</h2>
+            <form name="palindromeForm">
+                <span>Word to check:</span>
+                <input type="text" name="wordToCheck" value="">
+                <span>Algorithim to use (1 or 2)?:</span>
+                <input type="number" name="algorithimNumToUse" value="">
+                <input type="button" value="Check and add to list" onclick ="checkIfPalindromeAndAdd()">
+            </form>
+        </section>
+        <section>
+            <h2>Algorithim 1</h2>
+            <span>(word: Case Sensitive Palindrome?)</span>
+            <table id="algorithim1List"></table>
+            <input type="button" value="Clear the list" onclick="clearList1()">
+        </section>
+        <section>
+            <h2>Algorithim 2</h2>
+            <span>(word: Case Insensitive Palindrome?)</span>
+            <table id="algorithim2List"></table>
+            <input type="button" value="Clear the list" onclick="clearList2()">
+        </section>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>

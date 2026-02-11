@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+    body {
+        margin: 0;
+        background-color: #4B2E2E;
+    }
+
+  /* Text colors */
+  h1, h2, h2 + span, p {
+    color: #d9a066;
+  }
+
+  h2 {
+    white-space: nowrap;
+  }
+
+  p {
+    font-size: 2rem;
+  }
+  
+  /* Container for top-bar */
+  .top-bar {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #4B2E2E;
+  }
+  
+  /* Create three equal entries in top-bar */
+  .top-bar-item-left {
+    flex: 33.3333%;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .top-bar-center {
+    flex: 33.3333%;
+    text-align: center;
+    font-size: 2.5rem;
+  }
+  
+  .top-bar-item-right {
+      display: flex;
+      flex: 33.3333%;
+      text-align: right;
+      justify-content: flex-end;
+      align-items: flex-start;
+      gap: 10px;
+    }
+
+  .top-bar-item-right > a {
+      background-color: #d9a066;
+      color: black;
+      font-weight: bold;
+      border: none;
+      padding: 10px 20px;
+      text-decoration: none;
+      font-size: 1rem;
+      margin: 5px;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+
+      .top-bar-item-right > a:hover {
+        background-color: #f2e0c4;
+    }
+
+
+    header > div > a {
+        color: white;
+        padding: 10px;
+    }
+
+     header > div > button {
+        padding-top: 100px;
+    }
+
+    /* Separator class */
+    .separator {
+      background-color:brown;
+      flex: 100%;
+      height: 10px;
+    }
+
+      /* Container for content-area */
+  .content-area {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #4B2E2E;
+  }
+  
+  /* Create four equal entries in content-area-item */
+  .content-area-item {
+    flex: 1 1 250px;
+    text-align: center;
+  }
+
+ .content-area-item img {
+    width: 100%;
+    max-width: 350px;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .content-area-item img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+  }
+  
+  /* Container for bottom-bar */
+  .bottom-bar {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #4B2E2E;
+    padding-bottom: 50px;
+  }
+  
+  /* Create two equal entries in bottom-bar */
+  .bottom-bar-item {
+    flex: 50%;
+    text-align: center;
+  }
+
+  /* Media query - on screens that are 992px wide or less, make the content area two wide */
+  @media screen and (max-width: 992px) {
+  .content-area-item{
+    flex: 50%;
+  }
+}
+
+  /* Media query - on screens that are 600px wide or less, make everything stack on top of each other */
+  @media screen and (max-width: 600px) {
+    .top-bar {
+      flex-direction: column;
+    }
+    .top-bar-item-left {
+      text-align: center;
+    }
+    .top-bar-item-right {
+      text-align: center;
+    }
+    .content-area {
+      flex-direction: column;
+    }
+    .bottom-bar {
+      flex-direction: column;
+    }
+  }
+  
