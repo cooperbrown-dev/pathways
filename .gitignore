@@ -4,3 +4,7 @@
 .vs/
 *.nuget.cache
 project.assets.json
+# Angular / TypeScript cache
+.angular/
+*.tsbuildinfo
+node_modules/
