@@ -12,15 +12,28 @@ body {
 
 main > * {
     border: 1px solid red;
-    margin: 10px;
+    margin: 1%;
 }
 
 main {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 main > section {
-    width: 33%;
+    width: 23%;
+}
+
+@media screen and (max-width: 1000px) {
+    main > section{
+        width: 48%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    main > section{
+        width: 98%;
+    }
 }

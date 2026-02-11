@@ -1,12 +1,12 @@
-function checkIfPalindromeAndAdd(){
+function checkAlgorithimAndAdd(){
     var wordToCheckInput = document.forms["palindromeForm"]["wordToCheck"].value;
     var algorithimNumToUseInput = document.forms["palindromeForm"]["algorithimNumToUse"].value;
     if (wordToCheckInput == ""){
         alert("Please enter a word to check")
         return false;
     }
-    else if (algorithimNumToUseInput != 1 && algorithimNumToUseInput != 2){
-        alert("Please enter algorithim number 1 or 2")
+    else if (algorithimNumToUseInput != 1 && algorithimNumToUseInput != 2 && algorithimNumToUseInput != 3){
+        alert("Please enter algorithim number 1, 2 or 3")
         document.forms["palindromeForm"]["algorithimNumToUse"].value = "";
         return false;
     }
@@ -38,6 +38,24 @@ function checkIfPalindromeAndAdd(){
             document.forms["palindromeForm"]["wordToCheck"].value = "";
             document.forms["palindromeForm"]["algorithimNumToUse"].value = "";
         }
+
+        else if (algorithimNumToUseInput == 3){
+            const tableRef = document.getElementById("algorithim3List")
+            const vowels = 'aeiou';
+            let count = 0;
+
+            for (let char of wordToCheckInput.toLowerCase()){
+                if (vowels.includes(char)){
+                    count++;
+                }
+            }
+
+            (tableRef.insertRow(tableRef.rows.length)).innerHTML = wordToCheckInput + " has " + count + " vowels."
+
+            document.forms["palindromeForm"]["wordToCheck"].value = "";
+            document.forms["palindromeForm"]["algorithimNumToUse"].value = "";
+
+        }
         else{
             alert("Error, try again.")
         }
@@ -52,5 +70,10 @@ function clearList1(){
 
 function clearList2(){
     const tableRef = document.getElementById("algorithim2List");
+    tableRef.innerHTML = " ";
+}
+
+function clearList3(){
+    const tableRef = document.getElementById("algorithim3List");
     tableRef.innerHTML = " ";
 }

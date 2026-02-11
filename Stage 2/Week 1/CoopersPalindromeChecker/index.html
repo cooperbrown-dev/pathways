@@ -8,16 +8,17 @@
 
 </head>
 <body>
-    <header><h1>Cooper's Palindrome Checker</h1></header>
+    <header><h1>Cooper's Palindrome and Vowel Count Checker</h1></header>
     <main>
         <section>
             <h2>Enter information below:</h2>
             <form name="palindromeForm">
                 <span>Word to check:</span>
                 <input type="text" name="wordToCheck" value="">
-                <span>Algorithim to use (1 or 2)?:</span>
+                <br>
+                <span>Algorithim to use (1, 2 or 3)?:</span>
                 <input type="number" name="algorithimNumToUse" value="">
-                <input type="button" value="Check and add to list" onclick ="checkIfPalindromeAndAdd()">
+                <input type="button" value="Check and add to list" onclick ="checkAlgorithimAndAdd()">
             </form>
         </section>
         <section>
@@ -31,6 +32,12 @@
             <span>(word: Case Insensitive Palindrome?)</span>
             <table id="algorithim2List"></table>
             <input type="button" value="Clear the list" onclick="clearList2()">
+        </section>
+        <section>
+            <h2>Algorithim 3</h2>
+            <span>(word: How many vowels? Case Insensitive.)</span>
+            <table id="algorithim3List"></table>
+            <input type="button" value="Clear the list" onclick="clearList3()">
         </section>
     </main>
     <script src="main.js"></script>
