@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "es2016",       // JS version for output
+    "lib": ["es2016", "dom"], // array methods + DOM types
+    "strict": true,            // recommended for type safety
+    "module": "es6",           // modern module system
+    "outDir": "./dist"         // compiled JS goes here
+  },
+  "include": ["./**/*.ts"]     // compile all TS files in project
+}
