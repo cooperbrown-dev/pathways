@@ -1,0 +1,15 @@
+h1, body {
+    text-align: center;
+}
+
+#myList {
+    margin: 0 auto;
+}
+
+#myList td {
+    text-align: left
+}
+
+.strikethrough {
+    text-decoration: line-through;
+}
