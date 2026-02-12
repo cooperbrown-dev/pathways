@@ -1,6 +1,14 @@
 * {
     box-sizing: border-box;
   }
+
+html {
+    background: #2C2C2C;
+}
+
+body {
+    color: white;
+}
   
   /* Container for flexboxes */
   .myflexboxRow {

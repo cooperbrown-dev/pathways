@@ -26,7 +26,11 @@ function checkAlgorithimAndAdd(){
         }
 
         else if (algorithimNumToUseInput == 2){
-            const reversedWord = wordToCheckInput.split("").reverse().join("");
+            var reversedWord = wordToCheckInput.split("").reverse().join("");
+            var testWord = wordToCheckInput.split("");
+            console.log(testWord);
+            testWord = testWord.reverse();
+            console.log(wordToCheckInput.split(""));
             const tableRef = document.getElementById("algorithim2List");
 
             if (reversedWord.toLowerCase() == wordToCheckInput.toLowerCase()){
@@ -50,7 +54,7 @@ function checkAlgorithimAndAdd(){
                 }
             }
 
-            (tableRef.insertRow(tableRef.rows.length)).innerHTML = wordToCheckInput + " has " + count + " vowels."
+            (tableRef.insertRow(tableRef.rows.length)).innerHTML = wordToCheckInput + " has " + count + " vowel(s)."
 
             document.forms["palindromeForm"]["wordToCheck"].value = "";
             document.forms["palindromeForm"]["algorithimNumToUse"].value = "";
