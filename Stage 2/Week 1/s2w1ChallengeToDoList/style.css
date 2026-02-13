@@ -7,12 +7,12 @@ h1, body {
     max-width: 500px;
     table-layout: 600px;
     margin: 0 auto;
-}
 
-#myList td {
-    text-align: left;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
+    td {
+        text-align: left;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
 }
 
 .strikethrough {
