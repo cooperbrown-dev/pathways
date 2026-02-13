@@ -3,11 +3,16 @@ h1, body {
 }
 
 #myList {
+    width: 100%;
+    max-width: 500px;
+    table-layout: 600px;
     margin: 0 auto;
 }
 
 #myList td {
-    text-align: left
+    text-align: left;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 .strikethrough {

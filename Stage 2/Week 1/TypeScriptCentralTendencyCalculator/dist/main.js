@@ -11,7 +11,7 @@ function validateDisplayAndAddNumsToArray() {
     else if (numInput > maxValue) {
         alert("You must enter a number less than the maximum value provided.");
     }
-    else if (numInput == null) {
+    else if (numInput == "") {
         alert("Please enter a number between the minimum and maximum value.");
     }
     else {
