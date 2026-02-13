@@ -1,7 +1,7 @@
 function addToToDoList(){
     let newListItem = document.getElementById("newListItem").value;
     
-    if (newListItem == ""){
+    if (newListItem === ""){
         alert("Please enter a new list item")
     }
     else{
