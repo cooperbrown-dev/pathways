@@ -13,7 +13,7 @@ function addToToDoList(){
         let cell3 = row.insertCell();
         let cell4 = row.insertCell();
 
-        // add a checkbox and strikethrough when checkbox is checked
+        // add a checkbox to table data cell 1 and toggle strikethrough class to data cell 2
         let checkbox = document.createElement("input");
         checkbox.type = "checkbox";
         checkbox.name = "completed";
@@ -22,15 +22,15 @@ function addToToDoList(){
         });
         cell1.appendChild(checkbox);
 
-        // add the task to do
+        // add the user input to table date cell 2
         cell2.innerHTML = newListItem;
 
-        // add a due date/time for when the task is to be completed
+        // add a due date/time for when the task is to be completed to data cell 3
         let dateAndTimeDue = document.createElement("input");
         dateAndTimeDue.type = "datetime-local";
         cell3.appendChild(dateAndTimeDue);
         
-        // add a delete button to delete that row
+        // add a delete button to delete that row to data cell 4
         let deleteButton = document.createElement("button");
         deleteButton.textContent = "Delete";
         deleteButton.value = "Delete";
