@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: lightgray;
+}
+
+.myflexboxRow {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.myflexboxColumn {
+    flex: 50%;
+    padding: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .myflexboxRow {
+        flex-direction: column;
+    }
+}

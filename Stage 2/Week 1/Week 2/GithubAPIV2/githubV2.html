@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github API</title>
+
+    <link rel="stylesheet" href="githubV2.css">
+    <script src="githubV2.js"></script>
+</head>
+<body>
+    <h1>Github API Example</h1>
+    <div class="myflexboxRow">
+        <div class="myflexboxColumn">
+            <h2>Obtain user information</h2>
+            <input value="" id="newUser">
+            <input type="button" value="Look up user on GitHub" onclick="getGitHubUser()">
+        </div>
+        <div class="myflexboxColumn">
+            <h2 id="theUserName"></h2>
+            <section id="theRepos"></section>
+        </div>
+    </div>    
+</body>
+</html>

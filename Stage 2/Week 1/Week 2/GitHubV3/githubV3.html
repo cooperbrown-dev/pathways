@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Commits API</title>
+
+    <link rel="stylesheet" href="githubV3.css">
+    <script src="githubV3.js"></script>
+</head>
+<body>
+    <h1>Look up your most recent commits on github!</h1>
+    <div class="myflexboxRow">
+        <div class="myflexboxColumn">
+            <h2>Obtain GitHub Username: </h2>
+            <input value="" id="newUser">
+            <h2>Obtain Repo Name: </h2>
+            <input value="" id="newRepo">
+            <input type="button" value="Look up most recent commits" onclick="getGitHubUser()">
+        </div>
+        <div class="myflexboxColumn">
+            <h2 id="theUserName"></h2>
+            <section id="theRepos"></section>
+        </div>
+    </div>    
+</body>
+</html>

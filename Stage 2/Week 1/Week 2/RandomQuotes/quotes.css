@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: salmon;
+}
+
+.myflexboxRow {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.myflexboxColumn1 {
+    flex: 45%;
+    padding: 20px;
+}
+
+.myflexboxColumn2 {
+    flex: 55%;
+    padding: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .myflexboxRow {
+        flex-direction: column;
+    }
+}
