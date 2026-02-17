@@ -1,0 +1,67 @@
+let currentRepos = [];
+// https://api.github.com/users/cooperbrown.dev/repos
+console.log("Script loaded!");
+
+async function getGitHubUser() {
+    console.log("Get github user function running");
+
+    // first build the API call string by starting with the URL
+    let apiString = "https://api.github.com/users";
+    
+    // next add the user parameter to the string using the textbox and add / repos to the string
+    let theNewUser = document.getElementById('newUser').value;
+    apiString = apiString + "/" + theNewUser + "/repos";
+    alert(apiString);
+
+    // make the API call to the web service using the string 
+    let response = await fetch(apiString);
+
+    // now, check the status property of the response object, 200-299 is valid
+    if (response.status >= 200 && response.status <= 299) {  // valid status
+
+      let jsonData = await response.json();   // a json file will fetched
+      
+      currentRepos = jsonData;
+
+      let repoSelect = document.getElementById("repoSelect");
+      repoSelect.innerHTML = '<option selected disabled>Choose a repo...</option>'
+
+      // create the user feedback with the repos and links
+      jsonData.forEach((repo, index) => {
+        let opt = document.createElement("option");
+        opt.value = index;
+        opt.textContent = repo.name;
+        repoSelect.appendChild(opt);
+      });
+
+    } else {            // invalid status
+      // Handle errors
+        currentRepos = "<p>Error accessing GitHub, status: " + response.status + ": " + response.statusText;
+        console.log(response.status, response.statusText);
+    }
+
+    document.getElementById("theUserName").innerHTML = "";   // clear what was previously shown
+    document.getElementById("theRepos").innerHTML = "";   // clear what was previously shown
+    // print out the information for the user and clear the userid
+    document.getElementById("theUserName").innerHTML = theNewUser + " Repos:";
+    document.getElementById("theRepos").innerHTML = theNewRepos;
+    document.getElementById('newUser').value = "";
+
+    //finally scroll back to the top of the page
+    window.scrollTo(0,0);
+  
+    return true;
+  }
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const repoSelect = document.getElementById('repoSelect');
+    repoSelect.addEventListener('change', (event) => {
+        const selectedIndex = event.target.value;
+        const repo = currentRepos[selectedIndex];
+
+        if (repo) {
+            console.log("User selected:", repo.name);
+        }
+    })
+
+  })
