@@ -3,6 +3,7 @@ let userRepos = [];
 async function getGitHubUser() {
     // first build the API call string by starting with the URL
     let apiString = "https://api.github.com/users";
+    // grab the user input
     let theNewUser = document.getElementById('newUser').value;
 
     //clear all fields when searching for a new account
@@ -24,7 +25,7 @@ async function getGitHubUser() {
     // now, check the status property of the response object, 200-299 is valid
     if (response.status >= 200 && response.status <= 299) {  // valid status
 
-      //parse json file and confirm user has been found
+      //parse json file and confirm user has been found, and ask them to select an option from the dropdown menu
       userRepos = await response.json();
       document.getElementById("userFound").innerHTML = "User found!<br/><br/>Select a repo below from " + theNewUser + "'s GitHub for more information.<br/><br/>";
 
