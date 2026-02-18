@@ -277,7 +277,7 @@
                 fill="currentColor"
               ></path>
             </svg>
-            <span class="fs-4">GitHub API Bootstrap Example</span>
+            <span class="fs-4">Cooper's GitHub API Bootstrap Example</span>
           </a>
         </header>
         <div class="p-5 mb-4 bg-body-tertiary rounded-3">
@@ -287,14 +287,15 @@
               Enter the GitHub account that you would like to look up:
             </p>
             <input id="newUser" value="">
-            <button class="btn btn-primary btn-lg" type="button" id="search-btn" onclick="getGitHubUser()">
+            <button class="btn btn-primary btn-md" type="button" id="search-btn" onclick="getGitHubUser()">
               Search
             </button>
             <br/>
             <br/>
-            <label for="repoSelect" class="form-label">Select a Repo</label>
-            <select id="repoSelect" class="form-select">
-              <option selected disabled>Search for a user first...</option>
+            <h4 id="userFound"></h4>
+            <label for="repoSelectLabel" class="form-label">Select a Repo: </label>
+            <select id="repoSelect" class="form-select-md">
+              <option id="repoSelectOption" selected disabled>Search for a user first...</option>
             </select>
           </div>
         </div>
@@ -306,26 +307,16 @@
                 <ul class="list-group list-group-flush mb-3">
                   <li class="list-group-item"><strong>Language:</strong> <span id="detailLang"></span></li>
                   <li class="list-group-item"><strong>Size:</strong> <span id="detailSize"></span></li>
-                  <li class="list-group-item"><strong>Last Updated:</strong> <span id="detailUpdate"></span></li>
+                  <li class="list-group-item"><strong>Last Updated:</strong> <span id="detailLastUpdated"></span></li>
                 </ul>
                 <a id="detailLink" href="#" target="_blank" class="btn btn-outline-primary">Open on GitHub</a>
-              <button class="btn btn-outline-light" type="button">
-                Example button
-              </button>
             </div>
           </div>
           <div class="col-md-6">
             <div class="h-100 p-5 bg-body-tertiary border rounded-3">
-              <h2>Add borders</h2>
-              <p>
-                Or, keep it light and add a border for some added definition to
-                the boundaries of your content. Be sure to look under the hood
-                at the source HTML here as we've adjusted the alignment and
-                sizing of both column's content for equal-height.
+              <h2>Repo Description</h2>
+              <p id="detailDescription">
               </p>
-              <button class="btn btn-outline-secondary" type="button">
-                Example button
-              </button>
             </div>
           </div>
         </div>
