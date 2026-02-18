@@ -5,7 +5,7 @@ async function getGitHubUser() {
     let apiString = "https://api.github.com/users";
     let theNewUser = document.getElementById('newUser').value;
 
-    //clear all fields
+    //clear all fields when searching for a new account
     document.getElementById("detailLang").innerHTML = "";
     document.getElementById("detailSize").innerHTML = "";
     document.getElementById("detailLastUpdated").innerHTML = "";
@@ -24,7 +24,8 @@ async function getGitHubUser() {
     // now, check the status property of the response object, 200-299 is valid
     if (response.status >= 200 && response.status <= 299) {  // valid status
 
-      userRepos = await response.json();   // a json file will fetched
+      //parse json file and confirm user has been found
+      userRepos = await response.json();
       document.getElementById("userFound").innerHTML = "User found!<br/><br/>Select a repo below from " + theNewUser + "'s GitHub for more information.<br/><br/>";
 
       //update repo select option menu
@@ -39,14 +40,12 @@ async function getGitHubUser() {
         repoSelect.appendChild(opt);
       });
 
+      // Use the option that the user selects to pull information from the JSON file (userRepos)
       let userChoice = document.getElementById("repoSelect");
-      
       userChoice.addEventListener('change', (event) => {
           const selectedIndex = event.target.value;
           const selectedRepo = userRepos[selectedIndex];
-          console.log(selectedRepo.language);
-          console.log(selectedRepo.size);
-          console.log(selectedRepo.updated_at);
+
           if (selectedRepo.language == null){
             document.getElementById("detailLang").innerHTML = "N/A"
           }else{
