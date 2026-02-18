@@ -61,22 +61,12 @@ async function getGitHubUser() {
           };
           document.getElementById("detailLink").href = selectedRepo.html_url;
       })
-
-
-
-
-
-
-
-      
-      
     } else {            // invalid status
         // Handle errors
         alert("Error accessing GitHub, status: " + response.status + ": " + response.statusText);
         userRepos = [];
         document.getElementById("repoSelect").innerHTML = '<option selected disabled>Search for a user first...</option>';
         document.getElementById("newUser").value = "";
-
     } 
     return true;
-} // end of function
+}
