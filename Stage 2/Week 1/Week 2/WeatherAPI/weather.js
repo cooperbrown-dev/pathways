@@ -1,7 +1,8 @@
 async function getForecast(){
   
   let apiString = "https://api.weather.gov/gridpoints/";
-  let newCity = document.getElementById("newCity").value;
+  const newCity = document.getElementById("newCity").value;
+  console.log(newCity);
   let wfo;
   let x;
   let y;
