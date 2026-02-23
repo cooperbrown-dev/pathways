@@ -1,4 +1,4 @@
-let coinObject = [];
+//let coinObject = [];
 
 async function lookupCoin() {
     // first build the API call string by starting with the URL
