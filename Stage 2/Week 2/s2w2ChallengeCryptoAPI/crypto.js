@@ -8,8 +8,6 @@ async function lookupCoin() {
     // grab the user input
     let newCoin = document.getElementById("coin").value;
     
-    //clear all fields when searching for a new account
-    
     // next add the user parameter to the string using the textbox and add / repos to the string
     apiString = apiString + "ticker/?id=" + newCoin;
     alert(apiString);
@@ -41,7 +39,7 @@ async function lookupCoin() {
         
     } else {            // invalid status
         // Handle errors
-        alert("Error accessing API, status: " + response.status + ": " + response.statusText);s
+        alert("Error accessing API, status: " + response.status + ": " + response.statusText);
 
     } 
     return true;
