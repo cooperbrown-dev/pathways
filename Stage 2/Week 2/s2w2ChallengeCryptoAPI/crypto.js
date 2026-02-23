@@ -1,5 +1,3 @@
-//let coinObject = [];
-
 async function lookupCoin() {
     // first build the API call string by starting with the URL
     let apiString = "https://api.coinlore.net/api/";
