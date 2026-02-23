@@ -1,4 +1,4 @@
-let userRepos = [];
+//let userRepos = [];
 
 async function getGitHubUser() {
     // first build the API call string by starting with the URL
@@ -7,13 +7,7 @@ async function getGitHubUser() {
     let theNewUser = document.getElementById('newUser').value;
 
     //clear all fields when searching for a new account
-    document.getElementById("detailLang").innerHTML = "";
-    document.getElementById("detailSize").innerHTML = "";
-    document.getElementById("detailLastUpdated").innerHTML = "";
-    document.getElementById("detailDescription").innerHTML = "";
-    document.getElementById("detailLink").href = "";
-    document.getElementById("newUser").value = "";
-    document.getElementById("userFound").innerHTML = "";
+    clearForm();
     
     // next add the user parameter to the string using the textbox and add / repos to the string
     apiString = apiString + "/" + theNewUser + "/repos";
@@ -42,25 +36,25 @@ async function getGitHubUser() {
       });
 
       // Use the option that the user selects to pull information from the JSON file (userRepos)
-      let userChoice = document.getElementById("repoSelect");
-      userChoice.addEventListener('change', (event) => {
-          const selectedIndex = event.target.value;
-          const selectedRepo = userRepos[selectedIndex];
+      // let userChoice = document.getElementById("repoSelect");
+      // userChoice.addEventListener('change', (event) => {
+      //     const selectedIndex = event.target.value;
+      //     const selectedRepo = userRepos[selectedIndex];
 
-          if (selectedRepo.language == null){
-            document.getElementById("detailLang").innerHTML = "N/A"
-          }else{
-            document.getElementById("detailLang").innerHTML = selectedRepo.language;
-          };
-          document.getElementById("detailSize").innerHTML = selectedRepo.size + " KB";
-          document.getElementById("detailLastUpdated").innerHTML = selectedRepo.updated_at;
-          if (selectedRepo.description == null){
-            document.getElementById("detailDescription").innerHTML = "No description provided."
-          }else{
-            document.getElementById("detailDescription").innerHTML = selectedRepo.description;
-          };
-          document.getElementById("detailLink").href = selectedRepo.html_url;
-      })
+      //     if (selectedRepo.language == null){
+      //       document.getElementById("detailLang").innerHTML = "N/A"
+      //     }else{
+      //       document.getElementById("detailLang").innerHTML = selectedRepo.language;
+      //     };
+      //     document.getElementById("detailSize").innerHTML = selectedRepo.size + " KB";
+      //     document.getElementById("detailLastUpdated").innerHTML = selectedRepo.updated_at;
+      //     if (selectedRepo.description == null){
+      //       document.getElementById("detailDescription").innerHTML = "No description provided."
+      //     }else{
+      //       document.getElementById("detailDescription").innerHTML = selectedRepo.description;
+      //     };
+      //     document.getElementById("detailLink").href = selectedRepo.html_url;
+      // })
     } else {            // invalid status
         // Handle errors
         alert("Error accessing GitHub, status: " + response.status + ": " + response.statusText);
@@ -69,4 +63,35 @@ async function getGitHubUser() {
         document.getElementById("newUser").value = "";
     } 
     return true;
+}
+
+function clearForm(){
+    document.getElementById("detailLang").innerHTML = "";
+    document.getElementById("detailSize").innerHTML = "";
+    document.getElementById("detailLastUpdated").innerHTML = "";
+    document.getElementById("detailDescription").innerHTML = "";
+    document.getElementById("detailLink").href = "";
+    document.getElementById("newUser").value = "";
+    document.getElementById("userFound").innerHTML = "";
+}
+
+function userRepoChoice(event){
+    const selectedIndex = event.target.value;
+    const selectedRepo = userRepos[selectedIndex];
+
+    if (!selectedRepo) return;
+
+    if (selectedRepo.language == null){
+      document.getElementById("detailLang").innerHTML = "N/A"
+    }else{
+      document.getElementById("detailLang").innerHTML = selectedRepo.language;
+    };
+    document.getElementById("detailSize").innerHTML = selectedRepo.size + " KB";
+    document.getElementById("detailLastUpdated").innerHTML = selectedRepo.updated_at;
+    if (selectedRepo.description == null){
+      document.getElementById("detailDescription").innerHTML = "No description provided."
+    }else{
+      document.getElementById("detailDescription").innerHTML = selectedRepo.description;
+    };
+    document.getElementById("detailLink").href = selectedRepo.html_url;
 }
