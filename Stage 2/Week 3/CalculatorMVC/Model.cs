@@ -49,6 +49,7 @@ namespace CalculatorMVC
                     {
                         throw new DivideByZeroException("Cannot divide by zero.");
                     }
+                    result = Number1 / Number2;
                     break;
                 default:
                     throw new Exception("Invalid operator selection.");
