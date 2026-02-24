@@ -32,7 +32,7 @@ namespace CalculatorMVC
 
                 try
                 {
-                    double result = aCalc.DoOperation(aCalc.Number1, aCalc.Number2, aCalc.Operator);  // invokes the DoOperation method of the object and passes the operation
+                    double result = aCalc.DoOperation();  // invokes the DoOperation method of the object and passes the operation
 
                     if (double.IsNaN(result))
                     {

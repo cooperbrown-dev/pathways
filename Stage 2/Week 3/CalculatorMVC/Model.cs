@@ -29,25 +29,25 @@ namespace CalculatorMVC
             Operator = op;
         }
 
-        public double DoOperation (double num1, double num2, string op) {
+        public double DoOperation () {
             double result = double.NaN;
 
-            switch (op)
+            switch (Operator)
             {
                 case "a":
-                    result = num1 + num2;
+                    result = Number1 + Number2;
                     break;
                 case "s":
-                    result = num1 - num2;
+                    result = Number1 - Number2;
                     break;
                 case "m":
-                    result = num1 * num2;
+                    result = Number1 * Number2;
                     break;
                 case "d":
                     // check for a non-zero divisor.
-                    if (num2 != 0)
+                    if (Number2 != 0)
                     {
-                        result = num1 / num2;
+                        result = Number1 / Number2;
                     }
                     break;
                 default:
