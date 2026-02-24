@@ -34,15 +34,11 @@ namespace CalculatorMVC
                 {
                     double result = aCalc.DoOperation();  // invokes the DoOperation method of the object and passes the operation
 
-                    if (double.IsNaN(result))
-                    {
-                        aView.IfNan();
-                    }
                     aView.ShowCalculation(result);
                 }
                 catch (Exception e)
                 {
-                    aView.CatchExcE();
+                    aView.CatchExcE(e.Message);
                 }
                 endApp = aView.AskUserToContinueOrQuit();
             }

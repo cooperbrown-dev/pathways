@@ -45,13 +45,13 @@ namespace CalculatorMVC
                     break;
                 case "d":
                     // check for a non-zero divisor.
-                    if (Number2 != 0)
+                    if (Number2 == 0)
                     {
-                        result = Number1 / Number2;
+                        throw new DivideByZeroException("Cannot divide by zero.");
                     }
                     break;
                 default:
-                    break;
+                    throw new Exception("Invalid operator selection.");
             }
             return result;
         }

@@ -60,9 +60,9 @@ namespace CalculatorMVC
             Console.WriteLine("This operation can not be performed.\n");
         }
 
-        public void CatchExcE()
+        public void CatchExcE(string message)
         {
-            Console.WriteLine("Oh no! An exception occurred trying to do the math.\n - Details: " + " Enter e.Message");
+            Console.WriteLine("Oh no! An exception occurred trying to do the math.\n - Details: " + message);
         }
 
         public bool AskUserToContinueOrQuit()
