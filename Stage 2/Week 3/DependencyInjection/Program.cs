@@ -6,11 +6,12 @@ namespace InterfaceAndDI
     {
         static void Main(string[] args)
         {
-            IOrderFood loggerFile = new DogLogger();
-            //ILogger loggerFile = new FileLogger();
+            IDriveThru order = new McDonaldsDriveThru();
+            //IDriveThru order = new RunzaOrder();
+            //IDriveThru order = new TacoBellOrder();
 
-            ProductService productService1 = new ProductService(loggerFile);
-            productService1.Log("New log entry.");
+            DriveThruService driveThruService = new DriveThruService(order);
+            driveThruService.Order("Your order here.");
 
         }
     }

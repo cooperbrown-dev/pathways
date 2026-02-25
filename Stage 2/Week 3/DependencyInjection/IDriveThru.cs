@@ -4,8 +4,8 @@ using System.Text;
 
 namespace InterfaceAndDI
 {
-    public interface IOrderFood
+    public interface IDriveThru
     {
-        void Log(string message);
+        void Order(string order);
     }
 }
