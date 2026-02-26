@@ -1,17 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Numerics;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CalculatorMVC
+﻿namespace CalculatorMVC
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            CalcController c = new CalcController();
+            var c = new CalcController();
             c.Run();
         }
     }

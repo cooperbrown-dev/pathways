@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace s2w3Challenge
+﻿namespace s2w3ChallengeNS
 {
     public class GradingService : IGrader
     {

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace s2w3Challenge
+﻿namespace s2w3ChallengeNS
 {
     public class UndergradStudentGrader : IGrader
     {
@@ -20,7 +14,7 @@ namespace s2w3Challenge
             }
             return GradeUndergradStudent(grade1, grade2, grade3);
         }
-        public double GradeUndergradStudent(double grade1, double grade2, double grade3)
+        private double GradeUndergradStudent(double grade1, double grade2, double grade3)
         {
             double finalGrade = (grade1 + grade2 + grade3) / 3;
 

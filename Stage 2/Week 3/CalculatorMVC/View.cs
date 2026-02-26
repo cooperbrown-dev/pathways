@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Numerics;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CalculatorMVC
+﻿namespace CalculatorMVC
 {
     class CalcView
     {
@@ -54,7 +47,7 @@ namespace CalculatorMVC
         {
             Console.WriteLine("Your result: {0:0.##}\n", result);
         }
-        
+
         public void IfNan()
         {
             Console.WriteLine("This operation can not be performed.\n");

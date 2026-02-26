@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Numerics;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CalculatorMVC
+﻿namespace CalculatorMVC
 {
     class CalcModel
     {
@@ -29,7 +22,8 @@ namespace CalculatorMVC
             Operator = op;
         }
 
-        public double DoOperation () {
+        public double DoOperation()
+        {
             double result = double.NaN;
 
             switch (Operator)

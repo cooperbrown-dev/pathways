@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace s2w3Challenge
+﻿namespace s2w3ChallengeNS
 {
     public interface IGrader
     {
