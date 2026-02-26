@@ -17,7 +17,7 @@
             gradingService.CalculateGrade(85, 87, 94);
 
             GradingService gradingService2 = new GradingService(grader2);
-            gradingService2.CalculateGrade(90, 87, 94);
+            gradingService2.CalculateGrade(91, 77, 88);
         }
 
         //public double ValidateGrades(double grade1, double grade2, double grade3)

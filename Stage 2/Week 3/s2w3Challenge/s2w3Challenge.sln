@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.37012.4 d17.14
+VisualStudioVersion = 17.14.37012.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "s2w3Challenge", "s2w3Challenge.csproj", "{17B0B545-F816-4D1B-91DB-0736314D64CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostgradStudentTests", "..\PostgradStudentTests\PostgradStudentTests.csproj", "{96CB7C0B-2C36-4726-A47A-3F99848955DD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "s2w3ChallengeTests", "..\PostgradStudentTests\s2w3ChallengeTests.csproj", "{96CB7C0B-2C36-4726-A47A-3F99848955DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

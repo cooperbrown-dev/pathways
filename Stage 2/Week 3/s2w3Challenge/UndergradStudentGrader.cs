@@ -16,7 +16,8 @@
         }
         private double GradeUndergradStudent(double grade1, double grade2, double grade3)
         {
-            double finalGrade = (grade1 + grade2 + grade3) / 3;
+            // Weighted average of 3 grades
+            double finalGrade = Math.Round(((grade1 * 0.2) + (grade2 * 0.3) + (grade3 * 0.5)), 2);
 
             Console.WriteLine($"Final grade for undergrad student is: {finalGrade}.");
 

@@ -18,7 +18,8 @@
         }
         private double GradePostgradStudent(double grade1, double grade2, double grade3)
         {
-            double finalGrade = (grade1 + grade2 + grade3) / 3;
+            // Average of 3 grades
+            double finalGrade = Math.Round(((grade1 + grade2 + grade3) / 3), 2);
 
             Console.WriteLine($"Final grade for postgrad student is: {finalGrade}.");
 
